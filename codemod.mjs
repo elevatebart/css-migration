@@ -8,7 +8,7 @@ const CSS_VARS_TRANSFORMS_MAP = [
     selector: "--bs-white",
     props: {
       "background-color": "--ks-background-card",
-      background: "--ks-background-car",
+      background: "--ks-background-card",
     },
   },
   {

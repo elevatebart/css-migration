@@ -1,0 +1,17 @@
+{
+  "name": "css-migration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/types": "^7.26.3",
+    "ast-types": "^0.14.2",
+    "csv-parse": "^5.6.0",
+    "vue-metamorph": "^3.3.1"
+  }
+}

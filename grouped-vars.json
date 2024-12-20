@@ -1,0 +1,2208 @@
+{
+  "kestra": {
+    "--bs-gray-400": [
+      {
+        "line": "215",
+        "filePath": "kestra/ui/src/components/ContextInfoBar.vue"
+      },
+      {
+        "line": "336",
+        "filePath": "kestra/ui/src/components/executions/TaskRunLine.vue"
+      },
+      {
+        "line": "137",
+        "filePath": "kestra/ui/src/components/flows/FlowMetrics.vue"
+      },
+      {
+        "line": "231",
+        "filePath": "kestra/ui/src/components/flows/ValidationError.vue"
+      },
+      {
+        "line": "66",
+        "filePath": "kestra/ui/src/styles/app.scss"
+      },
+      {
+        "line": "74",
+        "filePath": "kestra/ui/src/styles/app.scss"
+      },
+      {
+        "line": "181",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "376",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "956",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "30",
+        "filePath": "kestra/ui/src/styles/layout/html-tag.scss"
+      },
+      {
+        "line": "60",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "72",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "30",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-gray-600": [
+      {
+        "line": "217",
+        "filePath": "kestra/ui/src/components/ContextInfoBar.vue"
+      },
+      {
+        "line": "589",
+        "filePath": "kestra/ui/src/components/dashboard/Dashboard.vue"
+      },
+      {
+        "line": "648",
+        "filePath": "kestra/ui/src/components/dashboard/Dashboard.vue"
+      },
+      {
+        "line": "341",
+        "filePath": "kestra/ui/src/components/executions/TaskRunLine.vue"
+      },
+      {
+        "line": "232",
+        "filePath": "kestra/ui/src/components/flows/ValidationError.vue"
+      },
+      {
+        "line": "94",
+        "filePath": "kestra/ui/src/components/layout/Labels.vue"
+      },
+      {
+        "line": "85",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "238",
+        "filePath": "kestra/ui/src/components/layout/SideBar.vue"
+      },
+      {
+        "line": "199",
+        "filePath": "kestra/ui/src/components/plugins/Toc.vue"
+      },
+      {
+        "line": "82",
+        "filePath": "kestra/ui/src/components/saved-filters/SavedFilter.vue"
+      },
+      {
+        "line": "417",
+        "filePath": "kestra/ui/src/override/components/flows/blueprints/BlueprintsBrowser.vue"
+      },
+      {
+        "line": "479",
+        "filePath": "kestra/ui/src/override/components/flows/blueprints/BlueprintsBrowser.vue"
+      },
+      {
+        "line": "224",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "349",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "442",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "925",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "33",
+        "filePath": "kestra/ui/src/styles/layout/html-tag.scss"
+      }
+    ],
+    "--bs-text-opacity-5": [
+      {
+        "line": "231",
+        "filePath": "kestra/ui/src/components/ContextInfoBar.vue"
+      }
+    ],
+    "--bs-tertiary-color": [
+      {
+        "line": "262",
+        "filePath": "kestra/ui/src/components/ContextInfoBar.vue"
+      },
+      {
+        "line": "113",
+        "filePath": "kestra/ui/src/components/docs/ContextDocs.vue"
+      },
+      {
+        "line": "129",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      },
+      {
+        "line": "108",
+        "filePath": "kestra/ui/src/components/onboarding/execution/OverviewCard.vue"
+      },
+      {
+        "line": "34",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "54",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      },
+      {
+        "line": "115",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-link-color-rgb": [
+      {
+        "line": "75",
+        "filePath": "kestra/ui/src/components/Id.vue"
+      },
+      {
+        "line": "86",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      },
+      {
+        "line": "90",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      },
+      {
+        "line": "33",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "56",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-border-color": [
+      {
+        "line": "213",
+        "filePath": "kestra/ui/src/components/Tabs.vue"
+      },
+      {
+        "line": "95",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      },
+      {
+        "line": "202",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      },
+      {
+        "line": "428",
+        "filePath": "kestra/ui/src/components/executions/Gantt.vue"
+      },
+      {
+        "line": "447",
+        "filePath": "kestra/ui/src/components/executions/Gantt.vue"
+      },
+      {
+        "line": "450",
+        "filePath": "kestra/ui/src/components/executions/Gantt.vue"
+      },
+      {
+        "line": "307",
+        "filePath": "kestra/ui/src/components/executions/Logs.vue"
+      },
+      {
+        "line": "377",
+        "filePath": "kestra/ui/src/components/executions/Overview.vue"
+      },
+      {
+        "line": "382",
+        "filePath": "kestra/ui/src/components/executions/Overview.vue"
+      },
+      {
+        "line": "471",
+        "filePath": "kestra/ui/src/components/executions/Overview.vue"
+      },
+      {
+        "line": "448",
+        "filePath": "kestra/ui/src/components/executions/outputs/Wrapper.vue"
+      },
+      {
+        "line": "479",
+        "filePath": "kestra/ui/src/components/executions/outputs/Wrapper.vue"
+      },
+      {
+        "line": "497",
+        "filePath": "kestra/ui/src/components/executions/outputs/Wrapper.vue"
+      },
+      {
+        "line": "502",
+        "filePath": "kestra/ui/src/components/executions/outputs/Wrapper.vue"
+      },
+      {
+        "line": "527",
+        "filePath": "kestra/ui/src/components/executions/outputs/Wrapper.vue"
+      },
+      {
+        "line": "6",
+        "filePath": "kestra/ui/src/components/filter/styles/filter.scss"
+      },
+      {
+        "line": "208",
+        "filePath": "kestra/ui/src/components/flows/FlowRun.vue"
+      },
+      {
+        "line": "213",
+        "filePath": "kestra/ui/src/components/flows/FlowRun.vue"
+      },
+      {
+        "line": "219",
+        "filePath": "kestra/ui/src/components/flows/FlowRun.vue"
+      },
+      {
+        "line": "263",
+        "filePath": "kestra/ui/src/components/flows/blueprints/BlueprintDetail.vue"
+      },
+      {
+        "line": "293",
+        "filePath": "kestra/ui/src/components/flows/blueprints/BlueprintDetail.vue"
+      },
+      {
+        "line": "472",
+        "filePath": "kestra/ui/src/components/inputs/Editor.vue"
+      },
+      {
+        "line": "1078",
+        "filePath": "kestra/ui/src/components/inputs/EditorSidebar.vue"
+      },
+      {
+        "line": "1134",
+        "filePath": "kestra/ui/src/components/inputs/EditorSidebar.vue"
+      },
+      {
+        "line": "1343",
+        "filePath": "kestra/ui/src/components/inputs/EditorView.vue"
+      },
+      {
+        "line": "54",
+        "filePath": "kestra/ui/src/components/layout/DottedLayout.vue"
+      },
+      {
+        "line": "72",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "118",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "163",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "171",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "182",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "85",
+        "filePath": "kestra/ui/src/components/layout/SelectTable.vue"
+      },
+      {
+        "line": "197",
+        "filePath": "kestra/ui/src/components/layout/SideBar.vue"
+      },
+      {
+        "line": "310",
+        "filePath": "kestra/ui/src/components/layout/SideBar.vue"
+      },
+      {
+        "line": "142",
+        "filePath": "kestra/ui/src/components/layout/TopNavBar.vue"
+      },
+      {
+        "line": "245",
+        "filePath": "kestra/ui/src/components/logs/LogsWrapper.vue"
+      },
+      {
+        "line": "256",
+        "filePath": "kestra/ui/src/components/logs/LogsWrapper.vue"
+      },
+      {
+        "line": "263",
+        "filePath": "kestra/ui/src/components/logs/LogsWrapper.vue"
+      },
+      {
+        "line": "706",
+        "filePath": "kestra/ui/src/components/logs/TaskRunDetails.vue"
+      },
+      {
+        "line": "159",
+        "filePath": "kestra/ui/src/components/namespace/Namespaces.vue"
+      },
+      {
+        "line": "166",
+        "filePath": "kestra/ui/src/components/namespace/Namespaces.vue"
+      },
+      {
+        "line": "414",
+        "filePath": "kestra/ui/src/override/components/flows/blueprints/BlueprintsBrowser.vue"
+      },
+      {
+        "line": "496",
+        "filePath": "kestra/ui/src/override/components/flows/blueprints/BlueprintsBrowser.vue"
+      },
+      {
+        "line": "56",
+        "filePath": "kestra/ui/src/styles/vendor.scss"
+      },
+      {
+        "line": "42",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "92",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "304",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "305",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "317",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "466",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "580",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "596",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "629",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "632",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "640",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "643",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "825",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "855",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "859",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "895",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "1038",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "1039",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "1042",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "1089",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "44",
+        "filePath": "kestra/ui/src/styles/layout/html-tag.scss"
+      },
+      {
+        "line": "28",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "54",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "62",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "63",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "64",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "65",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "66",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "67",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "46",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      },
+      {
+        "line": "120",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-secondary": [
+      {
+        "line": "219",
+        "filePath": "kestra/ui/src/components/Tabs.vue"
+      },
+      {
+        "line": "533",
+        "filePath": "kestra/ui/src/components/executions/outputs/Wrapper.vue"
+      },
+      {
+        "line": "1143",
+        "filePath": "kestra/ui/src/components/inputs/EditorSidebar.vue"
+      },
+      {
+        "line": "1349",
+        "filePath": "kestra/ui/src/components/inputs/EditorView.vue"
+      },
+      {
+        "line": "1425",
+        "filePath": "kestra/ui/src/components/inputs/EditorView.vue"
+      },
+      {
+        "line": "477",
+        "filePath": "kestra/ui/src/components/inputs/InputsForm.vue"
+      },
+      {
+        "line": "309",
+        "filePath": "kestra/ui/src/components/layout/SideBar.vue"
+      },
+      {
+        "line": "453",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "458",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "30",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "58",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "52",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-warning": [
+      {
+        "line": "506",
+        "filePath": "kestra/ui/src/components/admin/Triggers.vue"
+      }
+    ],
+    "--bs-gray-300": [
+      {
+        "line": "585",
+        "filePath": "kestra/ui/src/components/dashboard/Dashboard.vue"
+      },
+      {
+        "line": "644",
+        "filePath": "kestra/ui/src/components/dashboard/Dashboard.vue"
+      },
+      {
+        "line": "147",
+        "filePath": "kestra/ui/src/components/executions/ForEachStatus.vue"
+      },
+      {
+        "line": "328",
+        "filePath": "kestra/ui/src/components/executions/Logs.vue"
+      },
+      {
+        "line": "226",
+        "filePath": "kestra/ui/src/components/flows/ValidationError.vue"
+      },
+      {
+        "line": "739",
+        "filePath": "kestra/ui/src/components/logs/TaskRunDetails.vue"
+      },
+      {
+        "line": "242",
+        "filePath": "kestra/ui/src/components/plugins/PluginHome.vue"
+      },
+      {
+        "line": "62",
+        "filePath": "kestra/ui/src/styles/app.scss"
+      },
+      {
+        "line": "198",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "221",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "679",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "748",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "824",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "979",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "26",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-gray-700": [
+      {
+        "line": "625",
+        "filePath": "kestra/ui/src/components/dashboard/Dashboard.vue"
+      },
+      {
+        "line": "86",
+        "filePath": "kestra/ui/src/components/dashboard/components/charts/legend.js"
+      },
+      {
+        "line": "158",
+        "filePath": "kestra/ui/src/components/dashboard/components/charts/legend.js"
+      },
+      {
+        "line": "234",
+        "filePath": "kestra/ui/src/components/dashboard/components/charts/legend.js"
+      },
+      {
+        "line": "250",
+        "filePath": "kestra/ui/src/components/dashboard/components/charts/legend.js"
+      },
+      {
+        "line": "233",
+        "filePath": "kestra/ui/src/components/executions/Restart.vue"
+      },
+      {
+        "line": "3",
+        "filePath": "kestra/ui/src/components/filter/styles/filter.scss"
+      },
+      {
+        "line": "132",
+        "filePath": "kestra/ui/src/components/flows/FlowMetrics.vue"
+      },
+      {
+        "line": "1422",
+        "filePath": "kestra/ui/src/components/inputs/EditorView.vue"
+      },
+      {
+        "line": "451",
+        "filePath": "kestra/ui/src/components/inputs/InputsForm.vue"
+      },
+      {
+        "line": "457",
+        "filePath": "kestra/ui/src/components/inputs/InputsForm.vue"
+      },
+      {
+        "line": "94",
+        "filePath": "kestra/ui/src/components/layout/ContextNews.vue"
+      },
+      {
+        "line": "151",
+        "filePath": "kestra/ui/src/components/layout/ContextNews.vue"
+      },
+      {
+        "line": "238",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "432",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "1074",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "39",
+        "filePath": "kestra/ui/src/styles/layout/html-tag.scss"
+      },
+      {
+        "line": "69",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "71",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "35",
+        "filePath": "kestra/ui/src/utils/charts.js"
+      }
+    ],
+    "--bs-code-color": [
+      {
+        "line": "174",
+        "filePath": "kestra/ui/src/components/dashboard/components/tables/executions/InProgress.vue"
+      },
+      {
+        "line": "222",
+        "filePath": "kestra/ui/src/components/dashboard/components/tables/executions/NextScheduled.vue"
+      },
+      {
+        "line": "35",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "41",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-link-color": [
+      {
+        "line": "85",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      },
+      {
+        "line": "89",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      },
+      {
+        "line": "32",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      }
+    ],
+    "--bs-gray-100": [
+      {
+        "line": "174",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      },
+      {
+        "line": "311",
+        "filePath": "kestra/ui/src/components/executions/Logs.vue"
+      },
+      {
+        "line": "444",
+        "filePath": "kestra/ui/src/components/executions/outputs/Wrapper.vue"
+      },
+      {
+        "line": "209",
+        "filePath": "kestra/ui/src/components/flows/FlowRun.vue"
+      },
+      {
+        "line": "218",
+        "filePath": "kestra/ui/src/components/flows/FlowRun.vue"
+      },
+      {
+        "line": "458",
+        "filePath": "kestra/ui/src/components/inputs/Editor.vue"
+      },
+      {
+        "line": "480",
+        "filePath": "kestra/ui/src/components/inputs/Editor.vue"
+      },
+      {
+        "line": "1286",
+        "filePath": "kestra/ui/src/components/inputs/EditorView.vue"
+      },
+      {
+        "line": "1312",
+        "filePath": "kestra/ui/src/components/inputs/EditorView.vue"
+      },
+      {
+        "line": "467",
+        "filePath": "kestra/ui/src/components/inputs/InputsForm.vue"
+      },
+      {
+        "line": "186",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "328",
+        "filePath": "kestra/ui/src/components/layout/SideBar.vue"
+      },
+      {
+        "line": "343",
+        "filePath": "kestra/ui/src/components/layout/SideBar.vue"
+      },
+      {
+        "line": "346",
+        "filePath": "kestra/ui/src/components/layout/SideBar.vue"
+      },
+      {
+        "line": "259",
+        "filePath": "kestra/ui/src/components/logs/LogsWrapper.vue"
+      },
+      {
+        "line": "682",
+        "filePath": "kestra/ui/src/components/logs/TaskRunDetails.vue"
+      },
+      {
+        "line": "710",
+        "filePath": "kestra/ui/src/components/logs/TaskRunDetails.vue"
+      },
+      {
+        "line": "217",
+        "filePath": "kestra/ui/src/components/plugins/PluginHome.vue"
+      },
+      {
+        "line": "186",
+        "filePath": "kestra/ui/src/components/plugins/Toc.vue"
+      },
+      {
+        "line": "508",
+        "filePath": "kestra/ui/src/override/components/flows/blueprints/BlueprintsBrowser.vue"
+      },
+      {
+        "line": "521",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "637",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "649",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "652",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "831",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "28",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-border-secondary-color": [
+      {
+        "line": "177",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      },
+      {
+        "line": "29",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "47",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-card-spacer-y": [
+      {
+        "line": "200",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      },
+      {
+        "line": "216",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      }
+    ],
+    "--bs-card-spacer-x": [
+      {
+        "line": "201",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      }
+    ],
+    "--bs-border-radius-lg": [
+      {
+        "line": "211",
+        "filePath": "kestra/ui/src/components/docs/DocsLayout.vue"
+      },
+      {
+        "line": "442",
+        "filePath": "kestra/ui/src/components/executions/Gantt.vue"
+      },
+      {
+        "line": "207",
+        "filePath": "kestra/ui/src/components/flows/FlowRun.vue"
+      },
+      {
+        "line": "224",
+        "filePath": "kestra/ui/src/components/flows/FlowRun.vue"
+      },
+      {
+        "line": "225",
+        "filePath": "kestra/ui/src/components/flows/FlowRun.vue"
+      },
+      {
+        "line": "453",
+        "filePath": "kestra/ui/src/components/inputs/Editor.vue"
+      },
+      {
+        "line": "117",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "84",
+        "filePath": "kestra/ui/src/components/layout/SelectTable.vue"
+      },
+      {
+        "line": "273",
+        "filePath": "kestra/ui/src/components/layout/SideBar.vue"
+      },
+      {
+        "line": "251",
+        "filePath": "kestra/ui/src/components/logs/LogsWrapper.vue"
+      },
+      {
+        "line": "156",
+        "filePath": "kestra/ui/src/components/namespace/Namespaces.vue"
+      },
+      {
+        "line": "165",
+        "filePath": "kestra/ui/src/components/namespace/Namespaces.vue"
+      },
+      {
+        "line": "185",
+        "filePath": "kestra/ui/src/components/namespace/Namespaces.vue"
+      },
+      {
+        "line": "318",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "581",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "971",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "977",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "978",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      }
+    ],
+    "--bs-gray-200": [
+      {
+        "line": "335",
+        "filePath": "kestra/ui/src/components/executions/Gantt.vue"
+      },
+      {
+        "line": "408",
+        "filePath": "kestra/ui/src/components/executions/Gantt.vue"
+      },
+      {
+        "line": "136",
+        "filePath": "kestra/ui/src/components/flows/FlowMetrics.vue"
+      },
+      {
+        "line": "206",
+        "filePath": "kestra/ui/src/components/flows/ValidationError.vue"
+      },
+      {
+        "line": "1371",
+        "filePath": "kestra/ui/src/components/inputs/EditorView.vue"
+      },
+      {
+        "line": "685",
+        "filePath": "kestra/ui/src/components/logs/TaskRunDetails.vue"
+      },
+      {
+        "line": "724",
+        "filePath": "kestra/ui/src/components/logs/TaskRunDetails.vue"
+      },
+      {
+        "line": "58",
+        "filePath": "kestra/ui/src/styles/app.scss"
+      },
+      {
+        "line": "168",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "193",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "308",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "983",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "24",
+        "filePath": "kestra/ui/src/styles/layout/html-tag.scss"
+      },
+      {
+        "line": "27",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-gray-100-darken-5": [
+      {
+        "line": "344",
+        "filePath": "kestra/ui/src/components/executions/Gantt.vue"
+      },
+      {
+        "line": "51",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      }
+    ],
+    "--bs-gray-500": [
+      {
+        "line": "364",
+        "filePath": "kestra/ui/src/components/executions/Gantt.vue"
+      },
+      {
+        "line": "337",
+        "filePath": "kestra/ui/src/components/executions/Logs.vue"
+      },
+      {
+        "line": "2",
+        "filePath": "kestra/ui/src/components/filter/styles/filter.scss"
+      },
+      {
+        "line": "212",
+        "filePath": "kestra/ui/src/components/flows/ValidationError.vue"
+      },
+      {
+        "line": "1300",
+        "filePath": "kestra/ui/src/components/inputs/EditorView.vue"
+      },
+      {
+        "line": "317",
+        "filePath": "kestra/ui/src/components/layout/SideBar.vue"
+      },
+      {
+        "line": "748",
+        "filePath": "kestra/ui/src/components/logs/TaskRunDetails.vue"
+      },
+      {
+        "line": "77",
+        "filePath": "kestra/ui/src/styles/app.scss"
+      },
+      {
+        "line": "49",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "1051",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "1057",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "1146",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "31",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      },
+      {
+        "line": "29",
+        "filePath": "kestra/ui/src/utils/markdown.js"
+      }
+    ],
+    "--bs-font-monospace": [
+      {
+        "line": "390",
+        "filePath": "kestra/ui/src/components/executions/Gantt.vue"
+      },
+      {
+        "line": "371",
+        "filePath": "kestra/ui/src/components/executions/TaskRunLine.vue"
+      }
+    ],
+    "--bs-border-radius-sm": [
+      {
+        "line": "407",
+        "filePath": "kestra/ui/src/components/executions/Gantt.vue"
+      },
+      {
+        "line": "130",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "170",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "181",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      }
+    ],
+    "--bs-white": [
+      {
+        "line": "304",
+        "filePath": "kestra/ui/src/components/executions/Logs.vue"
+      },
+      {
+        "line": "451",
+        "filePath": "kestra/ui/src/components/inputs/Editor.vue"
+      },
+      {
+        "line": "90",
+        "filePath": "kestra/ui/src/components/layout/Labels.vue"
+      },
+      {
+        "line": "127",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "133",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "177",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      },
+      {
+        "line": "277",
+        "filePath": "kestra/ui/src/components/layout/SideBar.vue"
+      },
+      {
+        "line": "255",
+        "filePath": "kestra/ui/src/components/logs/LogsWrapper.vue"
+      },
+      {
+        "line": "703",
+        "filePath": "kestra/ui/src/components/logs/TaskRunDetails.vue"
+      },
+      {
+        "line": "77",
+        "filePath": "kestra/ui/src/components/saved-filters/SavedFilter.vue"
+      },
+      {
+        "line": "497",
+        "filePath": "kestra/ui/src/override/components/flows/blueprints/BlueprintsBrowser.vue"
+      },
+      {
+        "line": "134",
+        "filePath": "kestra/ui/src/styles/app.scss"
+      },
+      {
+        "line": "45",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "48",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "55",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "229",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "310",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "964",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "994",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "1002",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "1081",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "1086",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "11",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      },
+      {
+        "line": "29",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      },
+      {
+        "line": "32",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      },
+      {
+        "line": "30",
+        "filePath": "kestra/ui/src/utils/markdown.js"
+      }
+    ],
+    "--bs-gray-800": [
+      {
+        "line": "378",
+        "filePath": "kestra/ui/src/components/executions/TaskRunLine.vue"
+      },
+      {
+        "line": "133",
+        "filePath": "kestra/ui/src/components/flows/FlowMetrics.vue"
+      },
+      {
+        "line": "242",
+        "filePath": "kestra/ui/src/components/layout/SideBar.vue"
+      },
+      {
+        "line": "70",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "73",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      }
+    ],
+    "--bs-gray-900": [
+      {
+        "line": "4",
+        "filePath": "kestra/ui/src/components/filter/styles/filter.scss"
+      },
+      {
+        "line": "1140",
+        "filePath": "kestra/ui/src/components/inputs/EditorSidebar.vue"
+      },
+      {
+        "line": "639",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "644",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "648",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "74",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      }
+    ],
+    "--bs-border-radius": [
+      {
+        "line": "149",
+        "filePath": "kestra/ui/src/components/flows/Curl.vue"
+      },
+      {
+        "line": "254",
+        "filePath": "kestra/ui/src/components/flows/blueprints/BlueprintDetail.vue"
+      },
+      {
+        "line": "41",
+        "filePath": "kestra/ui/src/components/layout/Environment.vue"
+      },
+      {
+        "line": "352",
+        "filePath": "kestra/ui/src/components/layout/SideBar.vue"
+      },
+      {
+        "line": "215",
+        "filePath": "kestra/ui/src/components/logs/LogLine.vue"
+      },
+      {
+        "line": "168",
+        "filePath": "kestra/ui/src/components/onboarding/Welcome.vue"
+      },
+      {
+        "line": "189",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "371",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "522",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      }
+    ],
+    "--bs-cyan": [
+      {
+        "line": "4",
+        "filePath": "kestra/ui/src/components/flows/FlowDependencies.vue"
+      },
+      {
+        "line": "8",
+        "filePath": "kestra/ui/src/components/namespace/NamespaceDependencies.vue"
+      }
+    ],
+    "--bs-secondary-color": [
+      {
+        "line": "349",
+        "filePath": "kestra/ui/src/components/flows/FlowRoot.vue"
+      }
+    ],
+    "--bs-font-size-sm": [
+      {
+        "line": "214",
+        "filePath": "kestra/ui/src/components/flows/FlowRun.vue"
+      }
+    ],
+    "--bs-gray-900-lighten-5": [
+      {
+        "line": "153",
+        "filePath": "kestra/ui/src/components/flows/NoExecutions.vue"
+      },
+      {
+        "line": "199",
+        "filePath": "kestra/ui/src/components/onboarding/Welcome.vue"
+      }
+    ],
+    "--bs-gray-600-lighten-10": [
+      {
+        "line": "164",
+        "filePath": "kestra/ui/src/components/flows/NoExecutions.vue"
+      },
+      {
+        "line": "212",
+        "filePath": "kestra/ui/src/components/onboarding/Welcome.vue"
+      }
+    ],
+    "--bs-success-rgb": [
+      {
+        "line": "170",
+        "filePath": "kestra/ui/src/components/flows/ValidationError.vue"
+      },
+      {
+        "line": "103",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "84",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-warning-rgb": [
+      {
+        "line": "179",
+        "filePath": "kestra/ui/src/components/flows/ValidationError.vue"
+      },
+      {
+        "line": "102",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "83",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-danger-rgb": [
+      {
+        "line": "183",
+        "filePath": "kestra/ui/src/components/flows/ValidationError.vue"
+      },
+      {
+        "line": "101",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "82",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-body-line-height": [
+      {
+        "line": "503",
+        "filePath": "kestra/ui/src/components/inputs/Editor.vue"
+      }
+    ],
+    "--bs-heading-color": [
+      {
+        "line": "49",
+        "filePath": "kestra/ui/src/components/layout/DottedLayout.vue"
+      },
+      {
+        "line": "151",
+        "filePath": "kestra/ui/src/components/namespace/Namespaces.vue"
+      },
+      {
+        "line": "181",
+        "filePath": "kestra/ui/src/components/onboarding/VueTour.vue"
+      },
+      {
+        "line": "434",
+        "filePath": "kestra/ui/src/components/onboarding/VueTour.vue"
+      },
+      {
+        "line": "2",
+        "filePath": "kestra/ui/src/components/onboarding/components/buttons/buttons.scss"
+      },
+      {
+        "line": "24",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "51",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-info": [
+      {
+        "line": "27",
+        "filePath": "kestra/ui/src/components/layout/Environment.vue"
+      }
+    ],
+    "--bs-success": [
+      {
+        "line": "126",
+        "filePath": "kestra/ui/src/components/layout/Markdown.vue"
+      }
+    ],
+    "--bs-gray-100-darken-3": [
+      {
+        "line": "83",
+        "filePath": "kestra/ui/src/components/layout/SelectTable.vue"
+      }
+    ],
+    "--bs-font-sans-serif": [
+      {
+        "line": "206",
+        "filePath": "kestra/ui/src/components/logs/LogLine.vue"
+      }
+    ],
+    "--bs-gray-900-lighten-7": [
+      {
+        "line": "82",
+        "filePath": "kestra/ui/src/components/onboarding/execution/OverviewCard.vue"
+      }
+    ],
+    "--bs-tertiary": [
+      {
+        "line": "246",
+        "filePath": "kestra/ui/src/components/plugins/PluginHome.vue"
+      },
+      {
+        "line": "141",
+        "filePath": "kestra/ui/src/styles/app.scss"
+      },
+      {
+        "line": "55",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-card-bg": [
+      {
+        "line": "55",
+        "filePath": "kestra/ui/src/styles/vendor.scss"
+      },
+      {
+        "line": "232",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "972",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "23",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "75",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "49",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-body-font-size": [
+      {
+        "line": "36",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "37",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "154",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      }
+    ],
+    "--bs-gray-100-lighten-2": [
+      {
+        "line": "319",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      }
+    ],
+    "--bs-gray-100-darken-2": [
+      {
+        "line": "325",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      }
+    ],
+    "--bs-gray-600-darken-2": [
+      {
+        "line": "926",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      }
+    ],
+    "--bs-black": [
+      {
+        "line": "927",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      },
+      {
+        "line": "957",
+        "filePath": "kestra/ui/src/styles/layout/element-plus-overload.scss"
+      }
+    ],
+    "--bs-gray": [
+      {
+        "line": "13",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "59",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-gray-": [
+      {
+        "line": "15",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "18",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "19",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "61",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      },
+      {
+        "line": "64",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      },
+      {
+        "line": "65",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-body-color": [
+      {
+        "line": "25",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "50",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-body-bg": [
+      {
+        "line": "26",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      }
+    ],
+    "--bs-body-background": [
+      {
+        "line": "27",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      }
+    ],
+    "--bs-secondary-rgb": [
+      {
+        "line": "31",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "53",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-bg-opacity": [
+      {
+        "line": "40",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      }
+    ],
+    "--bs-link-hover-color-rgb": [
+      {
+        "line": "44",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "57",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-gray-100-lighten-5": [
+      {
+        "line": "53",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      }
+    ],
+    "--bs-primary": [
+      {
+        "line": "56",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "77",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      }
+    ],
+    "--bs-info-rgb": [
+      {
+        "line": "99",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "80",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-running-rgb": [
+      {
+        "line": "100",
+        "filePath": "kestra/ui/src/styles/layout/root-dark.scss"
+      },
+      {
+        "line": "81",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-border-info": [
+      {
+        "line": "86",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-border-running": [
+      {
+        "line": "87",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-border-danger": [
+      {
+        "line": "88",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-border-warning": [
+      {
+        "line": "89",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ],
+    "--bs-border-success": [
+      {
+        "line": "90",
+        "filePath": "kestra/ui/src/styles/layout/root.scss"
+      }
+    ]
+  },
+  "kestra-ee": {
+    "--bs-gray-800": [
+      {
+        "line": "376",
+        "filePath": "kestra-ee/ui-ee/src/components/admin/InstanceSetup.vue"
+      }
+    ],
+    "--bs-white": [
+      {
+        "line": "378",
+        "filePath": "kestra-ee/ui-ee/src/components/admin/InstanceSetup.vue"
+      },
+      {
+        "line": "400",
+        "filePath": "kestra-ee/ui-ee/src/components/admin/InstanceSetup.vue"
+      },
+      {
+        "line": "373",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/Apps.vue"
+      },
+      {
+        "line": "199",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/AppView.vue"
+      },
+      {
+        "line": "99",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockLogs.vue"
+      },
+      {
+        "line": "29",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockStacktrace.vue"
+      },
+      {
+        "line": "386",
+        "filePath": "kestra-ee/ui-ee/src/components/auditlogs/AuditLogs.vue"
+      }
+    ],
+    "--bs-code-color": [
+      {
+        "line": "99",
+        "filePath": "kestra-ee/ui-ee/src/components/apitokens/UserApiTokenMessage.vue"
+      }
+    ],
+    "--bs-gray-100": [
+      {
+        "line": "337",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/App.vue"
+      },
+      {
+        "line": "384",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/Apps.vue"
+      },
+      {
+        "line": "103",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockLogs.vue"
+      }
+    ],
+    "--bs-primary": [
+      {
+        "line": "350",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/App.vue"
+      },
+      {
+        "line": "116",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockLogs.vue"
+      }
+    ],
+    "--bs-border-color": [
+      {
+        "line": "359",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/App.vue"
+      },
+      {
+        "line": "330",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/Apps.vue"
+      },
+      {
+        "line": "372",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/Apps.vue"
+      },
+      {
+        "line": "203",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/AppView.vue"
+      },
+      {
+        "line": "100",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockLogs.vue"
+      },
+      {
+        "line": "107",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockLogs.vue"
+      },
+      {
+        "line": "31",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockStacktrace.vue"
+      },
+      {
+        "line": "267",
+        "filePath": "kestra-ee/ui-ee/src/components/login/Login.vue"
+      },
+      {
+        "line": "41",
+        "filePath": "kestra-ee/ui-ee/src/components/roles/RoleCard.vue"
+      },
+      {
+        "line": "154",
+        "filePath": "kestra-ee/ui-ee/src/override/components/namespaces/Namespaces.vue"
+      },
+      {
+        "line": "161",
+        "filePath": "kestra-ee/ui-ee/src/override/components/namespaces/Namespaces.vue"
+      }
+    ],
+    "--bs-secondary": [
+      {
+        "line": "366",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/App.vue"
+      },
+      {
+        "line": "242",
+        "filePath": "kestra-ee/ui-ee/src/components/users/UserInviteModal.vue"
+      }
+    ],
+    "--bs-gray-700": [
+      {
+        "line": "329",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/Apps.vue"
+      },
+      {
+        "line": "254",
+        "filePath": "kestra-ee/ui-ee/src/components/cluster/Services.vue"
+      },
+      {
+        "line": "40",
+        "filePath": "kestra-ee/ui-ee/src/components/roles/RoleCard.vue"
+      }
+    ],
+    "--bs-gray-900": [
+      {
+        "line": "331",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/Apps.vue"
+      },
+      {
+        "line": "249",
+        "filePath": "kestra-ee/ui-ee/src/components/login/Login.vue"
+      },
+      {
+        "line": "42",
+        "filePath": "kestra-ee/ui-ee/src/components/roles/RoleCard.vue"
+      }
+    ],
+    "--bs-border-radius-xl": [
+      {
+        "line": "202",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/AppView.vue"
+      },
+      {
+        "line": "30",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockStacktrace.vue"
+      }
+    ],
+    "--bs-gray-400": [
+      {
+        "line": "208",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/AppView.vue"
+      }
+    ],
+    "--bs-body-color": [
+      {
+        "line": "227",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/AppView.vue"
+      }
+    ],
+    "--bs-border-radius-lg": [
+      {
+        "line": "94",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockLogs.vue"
+      },
+      {
+        "line": "151",
+        "filePath": "kestra-ee/ui-ee/src/override/components/namespaces/Namespaces.vue"
+      },
+      {
+        "line": "160",
+        "filePath": "kestra-ee/ui-ee/src/override/components/namespaces/Namespaces.vue"
+      },
+      {
+        "line": "180",
+        "filePath": "kestra-ee/ui-ee/src/override/components/namespaces/Namespaces.vue"
+      }
+    ],
+    "--bs-gray-500": [
+      {
+        "line": "112",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockLogs.vue"
+      }
+    ],
+    "--bs-gray-200": [
+      {
+        "line": "37",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockStacktrace.vue"
+      },
+      {
+        "line": "57",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockStacktrace.vue"
+      },
+      {
+        "line": "59",
+        "filePath": "kestra-ee/ui-ee/src/components/apps/blocks/BlockStacktrace.vue"
+      },
+      {
+        "line": "215",
+        "filePath": "kestra-ee/ui-ee/src/components/login/Login.vue"
+      }
+    ],
+    "--bs-font-sans-serif": [
+      {
+        "line": "379",
+        "filePath": "kestra-ee/ui-ee/src/components/auditlogs/AuditLogs.vue"
+      }
+    ],
+    "--bs-gray-600": [
+      {
+        "line": "390",
+        "filePath": "kestra-ee/ui-ee/src/components/auditlogs/AuditLogs.vue"
+      }
+    ],
+    "--bs-heading-color": [
+      {
+        "line": "143",
+        "filePath": "kestra-ee/ui-ee/src/components/cluster/Service.vue"
+      },
+      {
+        "line": "146",
+        "filePath": "kestra-ee/ui-ee/src/override/components/namespaces/Namespaces.vue"
+      }
+    ],
+    "--bs-warning": [
+      {
+        "line": "457",
+        "filePath": "kestra-ee/ui-ee/src/components/cluster/ServiceTriggers.vue"
+      }
+    ],
+    "--bs-tertiary-color": [
+      {
+        "line": "159",
+        "filePath": "kestra-ee/ui-ee/src/components/login/AcceptInvitation.vue"
+      },
+      {
+        "line": "172",
+        "filePath": "kestra-ee/ui-ee/src/components/login/AcceptInvitation.vue"
+      }
+    ],
+    "--bs-body-background": [
+      {
+        "line": "339",
+        "filePath": "kestra-ee/ui-ee/src/components/users/UserDetails.vue"
+      }
+    ],
+    "--bs-card-bg": [
+      {
+        "line": "344",
+        "filePath": "kestra-ee/ui-ee/src/components/users/UserDetails.vue"
+      }
+    ],
+    "--bs-cyan": [
+      {
+        "line": "8",
+        "filePath": "kestra-ee/ui-ee/src/override/components/namespaces/NamespaceDependencies.vue"
+      }
+    ],
+    "--bs-body-bg": [
+      {
+        "line": "189",
+        "filePath": "kestra-ee/ui-ee/src/override/components/namespaces/Namespaces.vue"
+      }
+    ]
+  },
+  "ui-libs": {
+    "--bs-border-color": [
+      {
+        "line": "29",
+        "filePath": "ui-libs/src/components/buttons/AddTaskButton.vue"
+      },
+      {
+        "line": "28",
+        "filePath": "ui-libs/src/components/content/ProseTable.vue"
+      },
+      {
+        "line": "254",
+        "filePath": "ui-libs/src/components/nodes/BasicNode.vue"
+      },
+      {
+        "line": "19",
+        "filePath": "ui-libs/src/scss/app.scss"
+      },
+      {
+        "line": "25",
+        "filePath": "ui-libs/src/scss/app.scss"
+      }
+    ],
+    "--bs-white": [
+      {
+        "line": "30",
+        "filePath": "ui-libs/src/components/buttons/AddTaskButton.vue"
+      },
+      {
+        "line": "50",
+        "filePath": "ui-libs/src/components/content/Collapse.vue"
+      },
+      {
+        "line": "28",
+        "filePath": "ui-libs/src/components/content/NextLink.vue"
+      },
+      {
+        "line": "108",
+        "filePath": "ui-libs/src/components/content/ProsePre.vue"
+      },
+      {
+        "line": "216",
+        "filePath": "ui-libs/src/components/nodes/BasicNode.vue"
+      },
+      {
+        "line": "300",
+        "filePath": "ui-libs/src/components/nodes/BasicNode.vue"
+      },
+      {
+        "line": "102",
+        "filePath": "ui-libs/src/components/nodes/ClusterNode.vue"
+      },
+      {
+        "line": "104",
+        "filePath": "ui-libs/src/components/nodes/DependenciesNode.vue"
+      },
+      {
+        "line": "109",
+        "filePath": "ui-libs/src/components/nodes/DependenciesNode.vue"
+      },
+      {
+        "line": "120",
+        "filePath": "ui-libs/src/components/plugins/SchemaToCode.vue"
+      },
+      {
+        "line": "33",
+        "filePath": "ui-libs/src/scss/app.scss"
+      },
+      {
+        "line": "36",
+        "filePath": "ui-libs/src/scss/app.scss"
+      }
+    ],
+    "--bs-alert-padding-x": [
+      {
+        "line": "21",
+        "filePath": "ui-libs/src/components/content/Alert.vue"
+      }
+    ],
+    "--bs-alert-padding-y": [
+      {
+        "line": "22",
+        "filePath": "ui-libs/src/components/content/Alert.vue"
+      },
+      {
+        "line": "27",
+        "filePath": "ui-libs/src/components/content/Alert.vue"
+      }
+    ],
+    "--bs-alert-margin-bottom": [
+      {
+        "line": "23",
+        "filePath": "ui-libs/src/components/content/Alert.vue"
+      },
+      {
+        "line": "28",
+        "filePath": "ui-libs/src/components/content/Alert.vue"
+      }
+    ],
+    "--bs-purple": [
+      {
+        "line": "23",
+        "filePath": "ui-libs/src/components/content/NextLink.vue"
+      }
+    ],
+    "--bs-border-radius": [
+      {
+        "line": "15",
+        "filePath": "ui-libs/src/components/content/ProseCode.vue"
+      },
+      {
+        "line": "387",
+        "filePath": "ui-libs/src/components/plugins/SchemaToHtml.vue"
+      },
+      {
+        "line": "20",
+        "filePath": "ui-libs/src/scss/app.scss"
+      }
+    ],
+    "--bs-border-radius-lg": [
+      {
+        "line": "107",
+        "filePath": "ui-libs/src/components/content/ProsePre.vue"
+      },
+      {
+        "line": "119",
+        "filePath": "ui-libs/src/components/plugins/SchemaToCode.vue"
+      }
+    ],
+    "--bs-gray-600": [
+      {
+        "line": "115",
+        "filePath": "ui-libs/src/components/content/ProsePre.vue"
+      },
+      {
+        "line": "245",
+        "filePath": "ui-libs/src/components/nodes/BasicNode.vue"
+      },
+      {
+        "line": "127",
+        "filePath": "ui-libs/src/components/plugins/SchemaToCode.vue"
+      }
+    ],
+    "--bs-body-color": [
+      {
+        "line": "30",
+        "filePath": "ui-libs/src/components/content/ProseTable.vue"
+      },
+      {
+        "line": "40",
+        "filePath": "ui-libs/src/components/content/ProseTable.vue"
+      }
+    ],
+    "--bs-gray-700": [
+      {
+        "line": "102",
+        "filePath": "ui-libs/src/components/misc/ExecutionInformations.vue"
+      },
+      {
+        "line": "270",
+        "filePath": "ui-libs/src/components/nodes/BasicNode.vue"
+      }
+    ],
+    "--bs-gray-900": [
+      {
+        "line": "77",
+        "filePath": "ui-libs/src/components/misc/TaskIcon.vue"
+      },
+      {
+        "line": "80",
+        "filePath": "ui-libs/src/components/misc/TaskIcon.vue"
+      },
+      {
+        "line": "154",
+        "filePath": "ui-libs/src/components/topology/Topology.vue"
+      }
+    ],
+    "--bs-gray-300": [
+      {
+        "line": "219",
+        "filePath": "ui-libs/src/components/nodes/BasicNode.vue"
+      }
+    ],
+    "--bs-gray-200": [
+      {
+        "line": "232",
+        "filePath": "ui-libs/src/components/nodes/BasicNode.vue"
+      }
+    ],
+    "--bs-gray-500": [
+      {
+        "line": "235",
+        "filePath": "ui-libs/src/components/nodes/BasicNode.vue"
+      },
+      {
+        "line": "241",
+        "filePath": "ui-libs/src/components/nodes/BasicNode.vue"
+      }
+    ],
+    "--bs-black": [
+      {
+        "line": "296",
+        "filePath": "ui-libs/src/components/nodes/BasicNode.vue"
+      },
+      {
+        "line": "105",
+        "filePath": "ui-libs/src/components/nodes/DependenciesNode.vue"
+      },
+      {
+        "line": "24",
+        "filePath": "ui-libs/src/scss/app.scss"
+      },
+      {
+        "line": "28",
+        "filePath": "ui-libs/src/scss/app.scss"
+      }
+    ],
+    "--bs-primary": [
+      {
+        "line": "233",
+        "filePath": "ui-libs/src/components/topology/Topology.vue"
+      },
+      {
+        "line": "237",
+        "filePath": "ui-libs/src/components/topology/Topology.vue"
+      }
+    ],
+    "--bs-cyan": [
+      {
+        "line": "310",
+        "filePath": "ui-libs/src/components/topology/Topology.vue"
+      }
+    ],
+    "--bs-grey-500": [
+      {
+        "line": "317",
+        "filePath": "ui-libs/src/components/topology/Topology.vue"
+      }
+    ],
+    "--bs-card-bg": [
+      {
+        "line": "32",
+        "filePath": "ui-libs/src/scss/app.scss"
+      }
+    ],
+    "--bs-tooltip-bg": [
+      {
+        "line": "48",
+        "filePath": "ui-libs/src/scss/bootstrap-overload.scss"
+      },
+      {
+        "line": "54",
+        "filePath": "ui-libs/src/scss/bootstrap-overload.scss"
+      }
+    ],
+    "--bs-tooltip-color": [
+      {
+        "line": "49",
+        "filePath": "ui-libs/src/scss/bootstrap-overload.scss"
+      },
+      {
+        "line": "53",
+        "filePath": "ui-libs/src/scss/bootstrap-overload.scss"
+      }
+    ],
+    "--bs-tooltip-opacity": [
+      {
+        "line": "50",
+        "filePath": "ui-libs/src/scss/bootstrap-overload.scss"
+      }
+    ]
+  }
+}

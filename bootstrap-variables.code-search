@@ -1,0 +1,1652 @@
+# Query: --bs-
+# Including: *.vue, *.scss, *.ts, *.js
+# ContextLines: 1
+
+512 results - 96 files
+
+kestra/ui/src/components/ContextInfoBar.vue:
+  214          .versionNumber {
+  215:             color: var(--bs-gray-400);
+  216              html.dark & {
+  217:                 color: var(--bs-gray-600);
+  218              }
+
+  230              margin-bottom: 0;
+  231:             color: var(--bs-text-opacity-5);
+  232              opacity: .25;
+
+  261              right: var(--spacer);
+  262:             color: var(--bs-tertiary-color);
+  263              background: none;
+
+kestra/ui/src/components/Id.vue:
+  74          &:hover {
+  75:             color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  76          }
+
+kestra/ui/src/components/Tabs.vue:
+  212          margin: 0 4px;
+  213:         background-color: var(--bs-border-color);
+  214          border: none;
+
+  218          &:hover {
+  219:             background-color: var(--bs-secondary);
+  220          }
+
+kestra/ui/src/components/admin/Triggers.vue:
+  505      .trigger-issue-icon {
+  506:         color: var(--bs-warning);
+  507          font-size: 1.4em;
+
+kestra/ui/src/components/dashboard/Dashboard.vue:
+  584                  background: var(--card-bg);
+  585:                 border: 1px solid var(--bs-gray-300);
+  586                  border-radius: $border-radius;
+
+  588                  html.dark & {
+  589:                     border-color: var(--bs-gray-600);
+  590                  }
+
+  624      margin: 0;
+  625:     color: var(--bs-gray-700);
+  626  }
+
+  643                  background: var(--card-bg);
+  644:                 border: 1px solid var(--bs-gray-300);
+  645                  border-radius: $border-radius;
+
+  647                  html.dark & {
+  648:                     border-color: var(--bs-gray-600);
+  649                  }
+
+kestra/ui/src/components/dashboard/components/charts/legend.js:
+   85                      ? "#FFFFFF"
+   86:                     : cssVariable("--bs-gray-700");
+   87              textContainer.style.margin = 0;
+
+  157                      ? "#FFFFFF"
+  158:                     : cssVariable("--bs-gray-700");
+  159              textContainer.style.margin = 0;
+
+  233                      ? "#FFFFFF"
+  234:                     : cssVariable("--bs-gray-700");
+  235              textContainer.style.margin = 0;
+
+  249                      ? "#FFFFFF"
+  250:                     : cssVariable("--bs-gray-700");
+  251              executionsText.textContent = isDuration ? Utils.humanDuration(dataset.data[item.index]) : dataset.data[item.index];
+
+kestra/ui/src/components/dashboard/components/tables/executions/InProgress.vue:
+  173  code {
+  174:     color: var(--bs-code-color);
+  175  }
+
+kestra/ui/src/components/dashboard/components/tables/executions/NextScheduled.vue:
+  221  code {
+  222:     color: var(--bs-code-color);
+  223  }
+
+kestra/ui/src/components/docs/ContextDocs.vue:
+  112          margin-left: var(--spacer);
+  113:         color: var(--bs-tertiary-color);
+  114      }
+
+kestra/ui/src/components/docs/DocsLayout.vue:
+   84  
+   85:         #{--bs-link-color}: #8405FF;
+   86:         #{--bs-link-color-rgb}: to-rgb(#8405FF);
+   87  
+   88          html.dark & {
+   89:             #{--bs-link-color}: #BBBBFF;
+   90:             #{--bs-link-color-rgb}: to-rgb(#BBBBFF);
+   91          }
+
+   94              font-weight: 600;
+   95:             border-top: 1px solid var(--bs-border-color);
+   96              margin-bottom: 2rem;
+
+  128              .language {
+  129:                 color: var(--bs-tertiary-color);
+  130              }
+
+  173              padding-top: 35.25%;
+  174:             background-color: var(--bs-gray-100);
+  175              height: 28.351rem;
+  176              border-radius: calc($spacer / 2);
+  177:             border: 1px solid var(--bs-border-secondary-color);
+  178  
+
+  199          :deep(.card) {
+  200:             --bs-card-spacer-y: 1rem;
+  201:             --bs-card-spacer-x: 1rem;
+  202:             border: 1px solid var(--bs-border-color);
+  203              color: var(--content-content-primary);
+
+  210              background-color: var(--backgrounds-background-card);
+  211:             border-radius: var(--bs-border-radius-lg);
+  212  
+
+  215                  flex: 1 1 auto;
+  216:                 padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  217                  gap: 1rem;
+
+kestra/ui/src/components/executions/ForEachStatus.vue:
+  146          border-radius: 2px;
+  147:         background: var(--bs-gray-300);
+  148          html.dark & {
+
+kestra/ui/src/components/executions/Gantt.vue:
+  334              font-size: var(--font-size-sm);
+  335:             background-color: var(--bs-gray-200);
+  336  
+
+  343                  > .th {
+  344:                     background-color: var(--bs-gray-100-darken-5);
+  345                  }
+
+  363                  &::-webkit-scrollbar-track {
+  364:                     background: var(--bs-gray-500);
+  365                  }
+
+  389                          margin-left: 5px;
+  390:                         font-family: var(--bs-font-monospace);
+  391                          font-size: var(--font-size-xs);
+
+  406                          height: 25px;
+  407:                         border-radius: var(--bs-border-radius-sm);
+  408:                         background-color: var(--bs-gray-200);
+  409                          cursor: pointer;
+
+  427      :deep(.vue-recycle-scroller__item-view) {
+  428:         border-bottom: 2px solid var(--bs-border-color);
+  429          margin-bottom: 10px;
+
+  441          > .vue-recycle-scroller__item-wrapper > .vue-recycle-scroller__item-view > div {
+  442:             border-radius: var(--bs-border-radius-lg);
+  443          }
+
+  446              margin-bottom: 0;
+  447:             border: 2px solid var(--bs-border-color);
+  448  
+  449              tbody:last-child & {
+  450:                 border-bottom: 2px solid var(--bs-border-color);
+  451              }
+
+kestra/ui/src/components/executions/Logs.vue:
+  303      .attempt-wrapper {
+  304:         background-color: var(--bs-white);
+  305  
+  306          :deep(.vue-recycle-scroller__item-view + .vue-recycle-scroller__item-view) {
+  307:             border-top: 1px solid var(--bs-border-color);
+  308          }
+
+  310          html.dark & {
+  311:             background-color: var(--bs-gray-100);
+  312          }
+
+  327              &.cursor {
+  328:                 background-color: var(--bs-gray-300)
+  329              }
+
+  336          &::-webkit-scrollbar-track {
+  337:             background: var(--bs-gray-500);
+  338          }
+
+kestra/ui/src/components/executions/Overview.vue:
+  376              &:hover {
+  377:                 background-color: var(--bs-border-color);
+  378              }
+
+  381              &.is-active {
+  382:                 background-color: var(--bs-border-color);
+  383                  font-weight: normal;
+
+  470          .text-end {
+  471:             border-top: 1px solid var(--bs-border-color);
+  472          }
+
+kestra/ui/src/components/executions/Restart.vue:
+  232  .execution-description {
+  233:     color: var(--bs-gray-700);
+  234  }
+
+kestra/ui/src/components/executions/TaskRunLine.vue:
+  335          .attempt-number {
+  336:             background: var(--bs-gray-400);
+  337              padding: .375rem .75rem;
+
+  340              html.dark & {
+  341:                 color: var(--bs-gray-600);
+  342              }
+
+  370          small {
+  371:             font-family: var(--bs-font-monospace);
+  372              font-size: var(--font-size-xs)
+
+  377  
+  378:             color: var(--bs-gray-800);
+  379          }
+
+kestra/ui/src/components/executions/outputs/Wrapper.vue:
+  443      .debug {
+  444:         background: var(--bs-gray-100);
+  445      }
+
+  447      .bordered {
+  448:         border: 1px solid var(--bs-border-color);
+  449      }
+
+  478          &:last-child {
+  479:             border-right: 1px solid var(--bs-border-color);
+  480          }
+
+  496              &:hover {
+  497:                 background-color: var(--bs-border-color);
+  498              }
+
+  501              &.is-active {
+  502:                 background-color: var(--bs-border-color);
+  503                  font-weight: normal;
+
+  526      margin: 0 4px;
+  527:     background-color: var(--bs-border-color);
+  528      border: none;
+
+  532      &:hover {
+  533:         background-color: var(--bs-secondary);
+  534      }
+
+kestra/ui/src/components/filter/styles/filter.scss:
+  1  // Coloring
+  2: $filters-gray-500: var(--bs-gray-500);
+  3: $filters-gray-700: var(--bs-gray-700);
+  4: $filters-gray-900: var(--bs-gray-900);
+  5  $filters-card-color: var(--card-bg);
+  6: $filters-border-color: var(--bs-border-color);
+  7  
+
+kestra/ui/src/components/flows/Curl.vue:
+  148      pre {
+  149:         border-radius: var(--bs-border-radius);
+  150      }
+
+kestra/ui/src/components/flows/FlowDependencies.vue:
+  3          <VueFlow
+  4:             :default-marker-color="cssVariable('--bs-cyan')"
+  5              :fit-view-on-init="true"
+
+kestra/ui/src/components/flows/FlowMetrics.vue:
+  131                      this.theme === "light"
+  132:                         ? cssVariable("--bs-gray-700")
+  133:                         : cssVariable("--bs-gray-800");
+  134                  const lighten =
+  135                      this.theme === "light"
+  136:                         ? cssVariable("--bs-gray-200")
+  137:                         : cssVariable("--bs-gray-400");
+  138  
+
+kestra/ui/src/components/flows/FlowRoot.vue:
+  348  .gray-700 {
+  349:     color: var(--bs-secondary-color);
+  350  }
+
+kestra/ui/src/components/flows/FlowRun.vue:
+  206      :deep(.el-collapse) {
+  207:         border-radius: var(--bs-border-radius-lg);
+  208:         border: 1px solid var(--bs-border-color);
+  209:         background: var(--bs-gray-100);
+  210  
+
+  212              background: transparent;
+  213:             border-bottom: 1px solid var(--bs-border-color);
+  214:             font-size: var(--bs-font-size-sm);
+  215          }
+
+  217          .el-collapse-item__content {
+  218:             background: var(--bs-gray-100);
+  219:             border-bottom: 1px solid var(--bs-border-color);
+  220          }
+
+  223              &:last-child {
+  224:                 border-bottom-left-radius: var(--bs-border-radius-lg);
+  225:                 border-bottom-right-radius: var(--bs-border-radius-lg);
+  226              }
+
+kestra/ui/src/components/flows/NoExecutions.vue:
+  152                  font-weight: 500;
+  153:                 color: var(--bs-gray-900-lighten-5);
+  154                  display: flex;
+
+  163                          content: "";
+  164:                         background-color: var(--bs-gray-600-lighten-10);
+  165                          height: 1px;
+
+kestra/ui/src/components/flows/ValidationError.vue:
+  169          &.success {
+  170:             border-color: rgb(var(--bs-success-rgb));
+  171          }
+
+  178          &.warning {
+  179:             border-color: rgb(var(--bs-warning-rgb));
+  180          }
+
+  182          &.error {
+  183:             border-color: rgb(var(--bs-danger-rgb));
+  184          }
+
+  205              padding: $spacer;
+  206:             background-color: var(--bs-gray-200);
+  207              border-radius: $border-radius-lg $border-radius-lg 0 0;
+
+  211              html.dark & {
+  212:                 background-color: var(--bs-gray-500);
+  213              }
+
+  225              white-space: normal;
+  226:             border-top: 1px solid var(--bs-gray-300);
+  227              text-wrap: wrap;
+
+  230                  color: white;
+  231:                 background-color: var(--bs-gray-400);
+  232:                 border-top: 1px solid var(--bs-gray-600);
+  233              }
+
+kestra/ui/src/components/flows/blueprints/BlueprintDetail.vue:
+  253                  background: var(--card-bg);
+  254:                 border-radius: var(--bs-border-radius);
+  255                  min-width : 100px;
+
+  262                  flex-wrap: wrap;
+  263:                 border: 1px solid var(--bs-border-color);
+  264  
+
+  292                  font-size: var(--el-font-size-small);
+  293:                 border: 1px solid var(--bs-border-color);
+  294              }
+
+kestra/ui/src/components/inputs/Editor.vue:
+  450          .top-nav {
+  451:             background-color: var(--bs-white);
+  452              padding: calc(var(--spacer) / 2);
+  453:             border-radius: var(--bs-border-radius-lg);
+  454              border-bottom-left-radius: 0;
+
+  457              html.dark & {
+  458:                 background-color: var(--bs-gray-100);
+  459              }
+
+  471                  transition: var(--el-transition-box-shadow);
+  472:                 box-shadow: 0 0 0 1px var(--bs-border-color) inset;
+  473                  padding-top: 7px;
+
+  479                  html.dark & {
+  480:                     background-color: var(--bs-gray-100);
+  481                  }
+
+  502                          font-weight: bold;
+  503:                         line-height: var(--bs-body-line-height);
+  504                      }
+
+kestra/ui/src/components/inputs/EditorSidebar.vue:
+  1077      background: var(--card-bg);
+  1078:     border-right: 1px solid var(--bs-border-color);
+  1079  
+
+  1133          z-index: 9999;
+  1134:         border: 1px solid var(--bs-border-color);
+  1135  
+
+  1139              font-size: var(--el-font-size-small);
+  1140:             color: var(--bs-gray-900);
+  1141  
+  1142              &:hover {
+  1143:                 color: var(--bs-secondary);
+  1144              }
+
+kestra/ui/src/components/inputs/EditorView.vue:
+  1285          html.dark & {
+  1286:             background-color: var(--bs-gray-100);
+  1287          }
+
+  1299      html.dark .el-card :deep(.enhance-readability) {
+  1300:         background-color: var(--bs-gray-500);
+  1301      }
+
+  1311              padding: calc(var(--spacer) * 1.5);
+  1312:             background-color: var(--bs-gray-100);
+  1313          }
+
+  1342          margin: 0 4px;
+  1343:         background-color: var(--bs-border-color);
+  1344          border: none;
+
+  1348          &:hover {
+  1349:             background-color: var(--bs-secondary);
+  1350          }
+
+  1370          .tab-active {
+  1371:             background: var(--bs-gray-200) !important;
+  1372              color: black;
+
+  1421              font-size: var(--el-font-size-small);
+  1422:             color: var(--bs-gray-700);
+  1423  
+  1424              &:hover {
+  1425:                 color: var(--bs-secondary);
+  1426              }
+
+kestra/ui/src/components/inputs/InputsForm.vue:
+  450      font-size: var(--font-size-xs);
+  451:     color: var(--bs-gray-700);
+  452  }
+
+  456      font-size: var(--font-size-xs);
+  457:     color: var(--bs-gray-700);
+  458  }
+
+  466                  color: var(--el-text-color-regular);
+  467:                 background-color: var(--bs-gray-100);
+  468                  box-shadow: 0 0 0 0 var(--el-color-primary);
+
+  476              &:hover {
+  477:                 color: var(--bs-secondary);
+  478                  border-color: var(--el-color-primary);
+
+kestra/ui/src/components/layout/ContextNews.vue:
+   93          hr {
+   94:             border-top-color: var(--bs-gray-700);
+   95              margin-top: calc(var(--spacer) * 2);
+
+  150      :deep(.news-date) {
+  151:         color: var(--bs-gray-700);
+  152      }
+
+kestra/ui/src/components/layout/DottedLayout.vue:
+  48          .catch-phrase {
+  49:             color: var(--bs-heading-color);
+  50              margin-bottom: 0;
+
+  53          .image-box{
+  54:             border: 1px solid var(--bs-border-color);
+  55              background-color: var(--backgrounds-background-card);
+
+kestra/ui/src/components/layout/Environment.vue:
+  26  
+  27:                 return cssVariable("--bs-info");
+  28              }
+
+  40          border: 1px solid v-bind('color');
+  41:         border-radius: var(--bs-border-radius);
+  42          color: var(--content-content-primary);
+
+kestra/ui/src/components/layout/Labels.vue:
+  89          & a, span {
+  90:             color: var(--bs-white);
+  91          }
+
+  93          &.el-tag--info {
+  94:             background: var(--bs-gray-600);
+  95          }
+
+kestra/ui/src/components/layout/Markdown.vue:
+   71          th {
+   72:             border-bottom: 2px solid var(--bs-border-color);
+   73          }
+
+   84          a.header-anchor {
+   85:             color: var(--bs-gray-600);
+   86              font-size: var(--font-size-base);
+
+  116          pre {
+  117:             border-radius: var(--bs-border-radius-lg);
+  118:             border: 1px solid var(--bs-border-color);
+  119          }
+
+  125          mark {
+  126:             background: var(--bs-success);
+  127:             color: var(--bs-white);
+  128              font-size: var(--font-size-sm);
+  129              padding: 2px 8px 2px 8px;
+  130:             border-radius: var(--bs-border-radius-sm);
+  131  
+  132              * {
+  133:                 color: var(--bs-white) !important;
+  134              }
+
+  162              padding: 5px ;
+  163:             border-left: 4px solid var(--bs-border-color);
+  164          }
+
+  169          p > code{
+  170:             border-radius: var(--bs-border-radius-sm);
+  171:             border: 1px solid var(--bs-border-color);
+  172              color: var(--content-content-primary);
+
+  176              code {
+  177:                 background: var(--bs-white);
+  178                  font-size: 0.65em;
+
+  180                  font-weight: 400;
+  181:                 border-radius: var(--bs-border-radius-sm);
+  182:                 border: 1px solid var(--bs-border-color);
+  183                  color: var(--content-content-primary);
+
+  185                  html.dark & {
+  186:                     background: var(--bs-gray-100);
+  187                  }
+
+kestra/ui/src/components/layout/SelectTable.vue:
+  82          width: var(--table-header-width);
+  83:         background-color: var(--bs-gray-100-darken-3);
+  84:         border-radius: var(--bs-border-radius-lg) var(--bs-border-radius-lg) 0 0;
+  85:         border-bottom: 1px solid var(--bs-border-color);
+  86          overflow-x: auto;
+
+kestra/ui/src/components/layout/SideBar.vue:
+  196          z-index: 1039;
+  197:         border-right: 1px solid var(--bs-border-color);
+  198  
+
+  237              display: block;
+  238:             color: var(--bs-gray-600);
+  239              width: auto;
+
+  241              html.dark & {
+  242:                 color: var(--bs-gray-800);
+  243              }
+
+  272              margin-bottom: 0.3rem;
+  273:             border-radius: var(--bs-border-radius-lg);
+  274              transition: padding 0.2s ease;
+
+  276              html.dark & {
+  277:                 color: var(--bs-white);
+  278              }
+
+  308              background: transparent;
+  309:             color: var(--bs-secondary);
+  310:             border-top: 1px solid var(--bs-border-color);
+  311  
+
+  316                  html.dark & {
+  317:                     background: var(--bs-gray-500);
+  318                  }
+
+  327          .vsm--dropdown {
+  328:             background-color: var(--bs-gray-100);
+  329              border-radius: 4px;
+
+  342          html.dark & {
+  343:             background-color: var(--bs-gray-100);
+  344  
+  345              .vsm--dropdown {
+  346:                 background-color: var(--bs-gray-100);
+  347              }
+
+  351          .vsm--mobile-bg {
+  352:             border-radius: 0 var(--bs-border-radius) var(--bs-border-radius) 0;
+  353          }
+
+kestra/ui/src/components/layout/TopNavBar.vue:
+  141          padding: var(--spacer) calc(2 * var(--spacer));
+  142:         border-bottom: 1px solid var(--bs-border-color);
+  143          background: var(--card-bg);
+
+kestra/ui/src/components/logs/LogLine.vue:
+  205                  margin-right: 6px;
+  206:                 font-family: var(--bs-font-sans-serif);
+  207                  user-select: none;
+
+  214              & a {
+  215:                 border-radius: var(--bs-border-radius);
+  216              }
+
+kestra/ui/src/components/logs/LogsWrapper.vue:
+  244              .navbar {
+  245:                 border: 1px solid var(--bs-border-color);
+  246              }
+
+  250              margin-bottom: var(--spacer);
+  251:             border-radius: var(--bs-border-radius-lg);
+  252              overflow: hidden;
+
+  254              padding-top: calc($spacer/2);
+  255:             background-color: var(--bs-white);
+  256:             border: 1px solid var(--bs-border-color);
+  257  
+  258              html.dark & {
+  259:                 background-color: var(--bs-gray-100);
+  260              }
+
+  262              > * + * {
+  263:                 border-top: 1px solid var(--bs-border-color);
+  264              }
+
+kestra/ui/src/components/logs/TaskRunDetails.vue:
+  681          &.even > div > .el-card {
+  682:             background: var(--bs-gray-100);
+  683  
+  684              html.dark & {
+  685:                 background: var(--bs-gray-200);
+  686              }
+
+  702          .attempt-wrapper {
+  703:             background-color: var(--bs-white);
+  704  
+  705              :deep(.vue-recycle-scroller__item-view + .vue-recycle-scroller__item-view) {
+  706:                 border-top: 1px solid var(--bs-border-color);
+  707              }
+
+  709              html.dark & {
+  710:                 background-color: var(--bs-gray-100);
+  711              }
+
+  723              border: 1px solid var(--light);
+  724:             background-color: var(--bs-gray-200);
+  725              padding: 10px;
+
+  738                  &.cursor {
+  739:                     background-color: var(--bs-gray-300)
+  740                  }
+
+  747              &::-webkit-scrollbar-track {
+  748:                 background: var(--bs-gray-500);
+  749              }
+
+kestra/ui/src/components/namespace/NamespaceDependencies.vue:
+  7              v-else
+  8:             :default-marker-color="cssVariable('--bs-cyan')"
+  9              :fit-view-on-init="true"
+
+kestra/ui/src/components/namespace/Namespaces.vue:
+  150      min-width: $width;
+  151:     color: var(--bs-heading-color);
+  152      font-size: var(--font-size-sm);
+
+  155          padding: 0 1rem;
+  156:         border-radius: var(--bs-border-radius-lg);
+  157  
+  158          &.is-focus {
+  159:             box-shadow: 0 0 0 1px var(--bs-border-color) inset;
+  160          }
+
+  164  .namespaces {
+  165:     border-radius: var(--bs-border-radius-lg);
+  166:     border: 1px solid var(--bs-border-color);
+  167  
+
+  184      .rounded-full {
+  185:         border-radius: var(--bs-border-radius-lg);
+  186      }
+
+kestra/ui/src/components/onboarding/VueTour.vue:
+  180      const ICON_COLOR = computed(() => {
+  181:         return document.getElementsByTagName("html")[0].className.indexOf("dark") >= 0 ? "--bs-heading-color" : undefined;
+  182      });
+
+  433  $background: var(--card-bg);
+  434: $color: var(--bs-heading-color);
+  435  
+
+kestra/ui/src/components/onboarding/Welcome.vue:
+  167          align-items: center;
+  168:         border-radius: var(--bs-border-radius);
+  169      }
+
+  198                  font-weight: 500;
+  199:                 color: var(--bs-gray-900-lighten-5);
+  200                  display: flex;
+
+  211                          content: "";
+  212:                         background-color: var(--bs-gray-600-lighten-10);
+  213                          height: 2px;
+
+kestra/ui/src/components/onboarding/components/buttons/buttons.scss:
+  1  $background: var(--card-bg);
+  2: $color: var(--bs-heading-color);
+  3  $active: #8405ff;
+
+kestra/ui/src/components/onboarding/execution/OverviewCard.vue:
+   81  		&:hover {
+   82: 			color: var(--bs-gray-900-lighten-7);
+   83  		}
+
+  107  	font-size: var(--el-font-size-extra-small) !important;
+  108: 	color: var(--bs-tertiary-color);
+  109  }
+
+kestra/ui/src/components/plugins/PluginHome.vue:
+  216              padding: 1.5rem;
+  217:             background-color: var(--bs-gray-100);
+  218          }
+
+  241          border-radius: 4px;
+  242:         border: 1px solid var(--bs-gray-300);
+  243          background-color: white;
+
+  245          html.dark & {
+  246:             background-color: var(--bs-tertiary);
+  247              border-color: #404559;
+
+kestra/ui/src/components/plugins/Toc.vue:
+  185          padding: calc(var(--spacer) * 1.5);
+  186:         background-color: var(--bs-gray-100);
+  187      }
+
+  198          -webkit-border-radius: 10px;
+  199:         background: var(--bs-gray-600);
+  200      }
+
+kestra/ui/src/components/saved-filters/SavedFilter.vue:
+  76          & a, span, :deep(.el-icon) {
+  77:             color: var(--bs-white);
+  78              cursor: pointer;
+
+  81          &.el-tag--info {
+  82:             background: var(--bs-gray-600);
+  83          }
+
+kestra/ui/src/override/components/flows/blueprints/BlueprintsBrowser.vue:
+  413                              font-size: var(--el-font-size-small);
+  414:                             border: 1px solid var(--bs-border-color);
+  415  
+  416                              html.dark &.el-tag.el-tag--info {
+  417:                                 background-color: var(--bs-gray-600);
+  418                              }
+
+  478              html.dark &.embed {
+  479:                 background-color: var(--bs-gray-600);
+  480              }
+
+  495                  border-radius: $border-radius !important;
+  496:                 border: 1px solid var(--bs-border-color);
+  497:                 background: var(--bs-white);
+  498                  width: 100%;
+
+  507          html.dark & :deep(:not(.is-active) span) {
+  508:             background: var(--bs-gray-100);
+  509          }
+
+kestra/ui/src/styles/app.scss:
+   57      ::-webkit-scrollbar-track {
+   58:         background: var(--bs-gray-200);
+   59      }
+
+   61      ::-webkit-scrollbar-thumb {
+   62:         background: var(--bs-gray-300);
+   63          border-radius: var(--el-border-radius);
+
+   65          &:hover {
+   66:             background: var(--bs-gray-400);
+   67          }
+
+   73          ::-webkit-scrollbar-thumb {
+   74:             background: var(--bs-gray-400);
+   75  
+   76              &:hover {
+   77:                 background: var(--bs-gray-500);
+   78              }
+
+  133          border: 0.5px solid $value;
+  134:         background: var(--bs-white);
+  135  
+
+  140          html.dark & {
+  141:             background: var(--bs-tertiary);
+  142          }
+
+kestra/ui/src/styles/vendor.scss:
+  54      &.github-dark {
+  55:         background-color: var(--bs-card-bg) !important;
+  56:         border: 1px solid var(--bs-border-color) !important;
+  57      }
+
+kestra/ui/src/styles/layout/element-plus-overload.scss:
+    35      &.el-button--large {
+    36:         font-size: var(--bs-body-font-size);
+    37:         line-height: var(--bs-body-font-size);
+    38      }
+
+    41          font-weight: bold;
+    42:         border: 1px solid var(--bs-border-color);
+    43          height: 32px;
+    44          line-height: 32px;
+    45:         background-color: var(--bs-white) !important;
+    46  
+    47          html.dark & {
+    48:             color: var(--bs-white) !important;
+    49:             background-color: var(--bs-gray-500) !important;
+    50          }
+
+    54              border-color:  var(--el-color-primary-dark-2) !important;
+    55:             color: var(--bs-white) !important;
+    56          }
+
+    91  .el-input, .el-date-editor, .el-textarea {
+    92:     --el-input-border-color: var(--bs-border-color);
+    93      --el-input-bg-color: var(--input-bg);
+
+   153              margin-right: 10px;
+   154:             font-size: var(--bs-body-font-size);
+   155          }
+
+   167          html.dark & {
+   168:             background-color: var(--bs-gray-200);
+   169          }
+
+   180              html.dark & {
+   181:                 background-color: var(--bs-gray-400);
+   182              }
+
+   188      .el-select-dropdown__item {
+   189:         border-radius: var(--bs-border-radius);
+   190          margin: 0 0.6rem 1px;
+
+   192          &.is-selected {
+   193:             background-color: var(--bs-gray-200);
+   194              color: var(--el-text-color-regular);
+
+   197          &.is-hovering {
+   198:             background-color: var(--bs-gray-300);
+   199          }
+
+   220      background: none;
+   221:     color: var(--bs-gray-300);
+   222  
+   223      html.dark & {
+   224:         color: var(--bs-gray-600);
+   225      }
+
+   228  .el-input-number__increase, .el-input-number__decrease {
+   229:     background: var(--bs-white);
+   230  
+   231      html.dark & {
+   232:         background: var(--bs-card-bg);
+   233      }
+
+   237      html.dark & {
+   238:         color: var(--bs-gray-700);
+   239      }
+
+   303  .el-table {
+   304:     --el-table-border-color: var(--bs-border-color);
+   305:     --el-table-border: 1px solid var(--bs-border-color);
+   306  
+   307      --el-table-header-text-color: var(--content-content-primary);
+   308:     --el-table-row-hover-bg-color: var(--bs-gray-200);
+   309      --el-table-header-bg-color: #f5f5ff;
+   310:     --el-table-tr-bg-color: var(--bs-white);
+   311  
+
+   316  
+   317:     outline: 1px solid var(--bs-border-color);
+   318:     border-radius: var(--bs-border-radius-lg);
+   319:     background-color: var(--bs-gray-100-lighten-2);
+   320      border-bottom-width: 0;
+
+   324          .el-table__body tr.el-table__row--striped:not(:hover) td.el-table__cell {
+   325:             background: var(--bs-gray-100-darken-2);
+   326  
+
+   348      .el-table__empty-text {
+   349:         color: var(--bs-gray-600);
+   350      }
+
+   370              width: 28px;
+   371:             border-radius: var(--bs-border-radius);
+   372              text-align: center;
+
+   375              align-items: center;
+   376:             background-color: var(--bs-gray-400);
+   377  
+
+   431          a {
+   432:             color: var(--bs-gray-700);
+   433              transition: 0.3s ease;
+
+   441          &.is-disabled a {
+   442:             color: var(--bs-gray-600) !important;
+   443          }
+
+   452          .el-tabs__active-bar {
+   453:             background-color: var(--bs-secondary);
+   454          }
+
+   457              &.is-active > * {
+   458:                 color: var(--bs-secondary);
+   459              }
+
+   465          background: var(--card-bg);
+   466:         border-bottom: 1px solid var(--bs-border-color);
+   467          padding: calc(var(--spacer) / 2);
+
+   520                  font-weight: bold;
+   521:                 background: var(--bs-gray-100);
+   522:                 border-radius: var(--bs-border-radius);
+   523              }
+
+   579      border-radius: $border-radius-lg;
+   580:     --el-card-border-color: var(--bs-border-color);
+   581:     --el-card-border-radius: var(--bs-border-radius-lg);
+   582      --el-card-padding: #{$spacer};
+
+   595      --el-messagebox-title-color: var(--content-content-primary);
+   596:     border: 1px solid var(--bs-border-color);
+   597  
+
+   628      &.is-light {
+   629:         border: 1px solid var(--bs-border-color);
+   630  
+   631          .el-popper__arrow::before {
+   632:             border: 1px solid var(--bs-border-color);
+   633          }
+
+   636      &.is-dark {
+   637:         color: var(--bs-gray-100);
+   638  
+   639:         background: var(--bs-gray-900);
+   640:         border: 1px solid var(--bs-border-color);
+   641  
+   642          .el-popper__arrow::before {
+   643:             border: 1px solid var(--bs-border-color);
+   644:             background-color: var(--bs-gray-900);
+   645          }
+
+   647          html.dark & {
+   648:             color: var(--bs-gray-900);
+   649:             background: var(--bs-gray-100);
+   650  
+   651              .el-popper__arrow::before {
+   652:                 background-color: var(--bs-gray-100);
+   653              }
+
+   678      font-size: var(--el-font-size-small);
+   679:     --el-dropdown-menuItem-hover-fill: var(--bs-gray-300);
+   680      --el-dropdown-menuItem-hover-color: var(--content-content-primary);
+
+   747      li {
+   748:         --el-fill-color-light: var(--bs-gray-300);
+   749          padding: 0 var(--spacer);
+
+   823          margin-bottom: 0;
+   824:         background-color: var(--bs-gray-300);
+   825:         border-bottom: 1px solid var(--bs-border-color);
+   826          color: var(--content-content-primary);
+
+   830          html.dark & {
+   831:             background-color: var(--bs-gray-100);
+   832          }
+
+   854      --el-collapse-header-text-color: var(--content-content-primary);
+   855:     --el-collapse-header-border-color: var(--bs-border-color);
+   856      --el-collapse-header-height: auto;
+
+   858      --el-collapse-content-font-size: var(--font-size-base);
+   859:     --el-collapse-border-color: var(--bs-border-color);
+   860  
+
+   894  .el-notification {
+   895:     --el-notification-border-color: var(--bs-border-color);
+   896      --el-notification-title-color: var(--content-content-primary);
+
+   924  .el-tag {
+   925:     --el-tag-bg-color: var(--bs-gray-600);
+   926:     --el-tag-hover-color: var(--bs-gray-600-darken-2);
+   927:     --el-tag-text-color: var(--bs-black);
+   928      border: 0;
+
+   955  .el-avatar {
+   956:     --el-avatar-bg-color: var(--bs-gray-400);
+   957:     --el-avatar-text-color: var(--bs-black);
+   958  
+
+   963      html.dark & {
+   964:         --el-avatar-text-color: var(--bs-white);
+   965      }
+
+   970  .el-dialog {
+   971:     --el-dialog-border-radius: var(--bs-border-radius-lg);
+   972:     background-color: var(--bs-card-bg);
+   973  
+
+   976          margin: calc(var(--spacer) * -1) calc(var(--spacer) * -1) var(--spacer);
+   977:         border-top-right-radius: var(--bs-border-radius-lg);
+   978:         border-top-left-radius: var(--bs-border-radius-lg);
+   979:         background: var(--bs-gray-300);
+   980          font-size: var(--font-size-lg);
+
+   982          html.dark & {
+   983:             background: var(--bs-gray-200);
+   984          }
+
+   993          html.dark & {
+   994:             color: var(--bs-white)
+   995          }
+
+  1001          html.dark & {
+  1002:             color: var(--bs-white)
+  1003          }
+
+  1037  .el-date-range-picker {
+  1038:     --el-datepicker-border-color: var(--bs-border-color);
+  1039:     --el-datepicker-inner-border-color: var(--bs-border-color);
+  1040  
+  1041      .el-date-table th {
+  1042:         border-bottom-color: var(--bs-border-color);
+  1043      }
+
+  1050          font-weight: normal;
+  1051:         color: var(--bs-gray-500) !important;
+  1052          white-space: nowrap;
+
+  1056      .el-breadcrumb__separator {
+  1057:         color: var(--bs-gray-500);
+  1058      }
+
+  1073          a, .el-breadcrumb__separator {
+  1074:             color: var(--bs-gray-700) !important;
+  1075          }
+
+  1080      .is-process {
+  1081:         color: var(--bs-white);
+  1082      }
+
+  1085          &.is-process .el-step__icon {
+  1086:             border-color: var(--bs-white);
+  1087          }
+  1088          .el-step__icon {
+  1089:             border: 1px solid var(--bs-border-color);
+  1090              border-radius: 50%;
+
+  1145          box-shadow: none;
+  1146:         background: var(--bs-gray-500);
+  1147      }
+
+kestra/ui/src/styles/layout/html-tag.scss:
+  23      overflow: hidden;
+  24:     background: var(--bs-gray-200);
+  25      color: var(--content-content-primary);
+
+  29  blockquote {
+  30:     border-left: 5px solid var(--bs-gray-400);
+  31      margin-top: calc(var(--spacer) * 2);
+  32      padding: calc(var(--spacer) / 4)  0 calc(var(--spacer) / 4) var(--spacer);
+  33:     color: var(--bs-gray-600);
+  34      p {
+
+  38      html.dark & {
+  39:         color: var(--bs-gray-700);
+  40      }
+
+  43  hr {
+  44:     border-color: var(--bs-border-color);
+  45      opacity: 1;
+
+kestra/ui/src/styles/layout/root-dark.scss:
+   12  html.dark {
+   13:     #{--bs-gray}: #{map.get($grays, "600")};
+   14      @each $key, $value in $grays {
+   15:         --bs-gray-#{$key}: #{$value};
+   16  
+   17          @each $i in (2, 3, 5, 7, 10, 15) {
+   18:             #{--bs-gray-#{$key}-lighten-#{$i}}: #{lighten($value, $i)};
+   19:             #{--bs-gray-#{$key}-darken-#{$i}}: #{darken($value, $i)};
+   20          }
+
+   22  
+   23:     #{--bs-card-bg}: #2F3342;
+   24:     #{--bs-heading-color}: var(--bs-white);
+   25:     #{--bs-body-color}: white;
+   26:     #{--bs-body-bg}: #1C1E27;
+   27:     #{--bs-body-background}: #1C1E27;
+   28:     #{--bs-border-color}: #404559;
+   29:     #{--bs-border-secondary-color}: #2F3342;
+   30:     #{--bs-secondary}: #E3DBFF;
+   31:     #{--bs-secondary-rgb}: to-rgb(#E3DBFF);
+   32:     #{--bs-link-color}: $secondary;
+   33:     #{--bs-link-color-rgb}: to-rgb(#BBBBFF);
+   34:     #{--bs-tertiary-color}: #C3BBE3;
+   35:     #{--bs-code-color}: #BBBBFF;
+   36  
+
+   39          .bg-#{$level} {
+   40:             #{--bs-bg-opacity}: 0.2;
+   41          }
+
+   43  
+   44:     #{--bs-link-hover-color-rgb}: to-rgb(#E0E0FF);
+   45  
+
+   50      --el-bg-color-page: var(--backgrounds-background-body);
+   51:     --el-bg-color-overlay: var(--bs-gray-100-darken-5);
+   52  
+   53:     --el-disabled-bg-color: var(--bs-gray-100-lighten-5);
+   54:     --el-disabled-border-color: var(--bs-border-color);
+   55  
+   56:     --el-text-color-primary: var(--bs-primary);
+   57      --el-text-color-regular: var(--content-content-primary);
+   58:     --el-text-color-secondary: var(--bs-secondary);
+   59      --el-text-color-placeholder: var(--content-content-primary);
+   60:     --el-text-color-disabled: var(--bs-gray-400);
+   61  
+   62:     --el-border-color: var(--bs-border-color);
+   63:     --el-border-color-light: var(--bs-border-color);
+   64:     --el-border-color-lighter: var(--bs-border-color);
+   65:     --el-border-color-extra-light: var(--bs-border-color);
+   66:     --el-border-color-dark: var(--bs-border-color);
+   67:     --el-border-color-darker: var(--bs-border-color);
+   68  
+   69:     --el-fill-color: var(--bs-gray-700);
+   70:     --el-fill-color-light: var(--bs-gray-800);
+   71:     --el-fill-color-lighter: var(--bs-gray-700);
+   72:     --el-fill-color-extra-light: var(--bs-gray-400);
+   73:     --el-fill-color-dark: var(--bs-gray-800);
+   74:     --el-fill-color-darker: var(--bs-gray-900);
+   75:     --el-fill-color-blank: var(--bs-card-bg);
+   76  
+   77:     --el-color-alert-primary: var(--bs-primary);
+   78      --el-color-alert-info: #c7fdff;
+
+   98      $content-success: #7cdfc4;
+   99:     #{--bs-info-rgb}: to_rgb($content-information);
+  100:     #{--bs-running-rgb}: to_rgb($content-running);
+  101:     #{--bs-danger-rgb}: to_rgb($content-alert);
+  102:     #{--bs-warning-rgb}: to_rgb($content-warning);
+  103:     #{--bs-success-rgb}: to_rgb($content-success);
+  104  
+
+kestra/ui/src/styles/layout/root.scss:
+   10      --el-bg-color-page: var(--backgrounds-background-body);
+   11:     --el-bg-color-overlay: var(--bs-white);
+   12  
+
+   25  
+   26:     --el-fill-color: var(--bs-gray-300); // used in buttons .is-text
+   27:     --el-fill-color-light: var(--bs-gray-200); // used in many places autocomplete suggestion highlighted
+   28:     --el-fill-color-lighter: var(--bs-gray-100); // used to be for table stripped but not anymore
+   29:     --el-fill-color-extra-light: var(--bs-white); // not used at all
+   30:     --el-fill-color-dark: var(--bs-gray-400); // used in buttons .is-text when active
+   31:     --el-fill-color-darker: var(--bs-gray-500); // not used at kestra
+   32:     --el-fill-color-blank: var(--bs-white); // used in many places --el-input-background-color
+   33  
+
+   40  
+   41:     --bs-code-color: #7400DF;
+   42  
+
+   45  
+   46:     #{--bs-border-color}: #E5E4F7;
+   47:     #{--bs-border-secondary-color}: #E5E4F7;
+   48  
+   49:     #{--bs-card-bg}: #FFFFFF;
+   50:     #{--bs-body-color}: black;
+   51:     #{--bs-heading-color}: var(--bs-black);
+   52:     #{--bs-secondary}: #564A75;
+   53:     #{--bs-secondary-rgb}: to-rgb(#564A75);
+   54:     #{--bs-tertiary-color}: #7E719F;
+   55:     #{--bs-tertiary}: $tertiary;
+   56:     #{--bs-link-color-rgb}: to-rgb(#8405FF);
+   57:     #{--bs-link-hover-color-rgb}: to-rgb(#9470FF);
+   58  
+   59:     #{--bs-gray}: #{map.get($grays, "600")};
+   60      @each $key, $value in $grays {
+   61:         --bs-gray-#{$key}: #{$value};
+   62  
+   63          @each $i in (2, 3, 5, 7, 10, 15) {
+   64:             #{--bs-gray-#{$key}-lighten-#{$i}}: #{lighten($value, $i)};
+   65:             #{--bs-gray-#{$key}-darken-#{$i}}: #{darken($value, $i)};
+   66          }
+
+   70          @each $i in (45) {
+   71:             #{--bs-#{$key}-darken-#{$i}}: #{darken($value, $i)};
+   72          }
+
+   79      $content-success: #03DABA;
+   80:     #{--bs-info-rgb}: to_rgb($content-information);
+   81:     #{--bs-running-rgb}: to_rgb($content-running);
+   82:     #{--bs-danger-rgb}: to_rgb($content-alert);
+   83:     #{--bs-warning-rgb}: to_rgb($content-warning);
+   84:     #{--bs-success-rgb}: to_rgb($content-success);
+   85  
+   86:     #{--bs-border-info}: var(--border-information);
+   87:     #{--bs-border-running}: var(--border-running);
+   88:     #{--bs-border-danger}: var(--border-failed);
+   89:     #{--bs-border-warning}: var(--border-warning);
+   90:     #{--bs-border-success}: var(--border-success);
+   91  }
+
+  114  .text-tertiary {
+  115:     color: var(--bs-tertiary-color);
+  116  }
+
+  119      background: var(--card-bg);
+  120:     border-bottom: 1px solid var(--bs-border-color);
+  121      padding: calc(var(--spacer) / 2) calc(var(--spacer) * 2);
+
+kestra/ui/src/utils/charts.js:
+  34      const color =
+  35:         Utils.getTheme() === "dark" ? "#FFFFFF" : cssVariable("--bs-gray-700");
+  36  
+
+kestra/ui/src/utils/markdown.js:
+  28  
+  29:         githubDark["colors"]["editor.background"] = "var(--bs-gray-500)";
+  30:         githubLight["colors"]["editor.background"] = "var(--bs-white)";
+  31  
+
+kestra/ui/src/utils/state.js:
+  221                  icon: state.icon,
+  222:                 color: cssVariable("--bs-" + state.colorClass),
+  223                  colorClass: state.colorClass,
+
+  237          return _mapValues(STATE, (state) =>
+  238:             cssVariable("--bs-" + state.colorClass),
+  239          );
+
+kestra-ee/ui-ee/src/components/admin/InstanceSetup.vue:
+  375          &:deep(.is-process) {
+  376:             color: var(--bs-gray-800);
+  377              html.dark & {
+  378:                 color: var(--bs-white);
+  379              }
+
+  399              html.dark & {
+  400:                 color: var(--bs-white);
+  401              }
+
+kestra-ee/ui-ee/src/components/apitokens/UserApiTokenMessage.vue:
+  98          font-size: .775em !important;
+  99:         color: var(--bs-code-color)!important;
+  100      }
+
+kestra-ee/ui-ee/src/components/apps/App.vue:
+  336              padding: calc(var(--spacer) * 1.5);
+  337:             background-color: var(--bs-gray-100);
+  338          }
+
+  349          &::-webkit-scrollbar-thumb {
+  350:             background: var(--bs-primary);
+  351              border-radius: 20px;
+
+  358          margin: 0 4px;
+  359:         background-color: var(--bs-border-color);
+  360          border: none;
+
+  365          &:hover {
+  366:             background-color: var(--bs-secondary);
+  367          }
+
+kestra-ee/ui-ee/src/components/apps/Apps.vue:
+  328  .el-tag {
+  329:     border-color: var(--bs-gray-700);
+  330:     background: var(--bs-border-color);
+  331:     color: var(--bs-gray-900);
+  332  
+
+  371              border-radius: $border-radius !important;
+  372:             border: 1px solid var(--bs-border-color);
+  373:             background: var(--bs-white);
+  374              width: 100%;
+
+  383      html.dark & :deep(:not(.is-active) span) {
+  384:         background: var(--bs-gray-100);
+  385      }
+
+kestra-ee/ui-ee/src/components/apps/AppView.vue:
+  198          padding: 15px 40px 15px 40px;
+  199:         background: var(--bs-white);
+  200          width: 600px;
+  201          max-width: 100%;
+  202:         border-radius: var(--bs-border-radius-xl);
+  203:         border: 1px solid var(--bs-border-color);
+  204          flex-shrink: 1;
+
+  207          html.dark & {
+  208:             background: var(--bs-gray-400);
+  209          }
+
+  226          margin-top: var(--spacer);
+  227:         color: var(--bs-body-color);
+  228          font-size: var(--el-font-size-extra-small);
+
+kestra-ee/ui-ee/src/components/apps/blocks/BlockLogs.vue:
+   93      margin-bottom: var(--spacer);
+   94:     border-radius: var(--bs-border-radius-lg);
+   95  
+
+   98      padding-right: calc($spacer/2);
+   99:     background-color: var(--bs-white);
+  100:     border: 1px solid var(--bs-border-color);
+  101  
+  102      html.dark & {
+  103:         background-color: var(--bs-gray-100);
+  104      }
+
+  106      > * + * {
+  107:         border-top: 1px solid var(--bs-border-color);
+  108      }
+
+  111          .el-scrollbar__track {
+  112:             background-color: var(--bs-gray-500);
+  113          }
+
+  115          .el-scrollbar__thumb {
+  116:             background-color: var(--bs-primary);
+  117          }
+
+kestra-ee/ui-ee/src/components/apps/blocks/BlockStacktrace.vue:
+  28      position: relative;
+  29:     background: var(--bs-white);
+  30:     border-radius: var(--bs-border-radius-xl);
+  31:     border: 1px solid var(--bs-border-color);
+  32      font-size: var(--el-font-size-extra-small);
+
+  36      html.dark & {
+  37:         background: var(--bs-gray-200);
+  38      }
+
+  56      border: 0;
+  57:     background: var(--bs-gray-200);
+  58      padding: 0.5rem;
+  59:     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, var(--bs-gray-200) 20%);
+  60   }
+
+kestra-ee/ui-ee/src/components/auditlogs/AuditLogs.vue:
+  378          font-size: 100%;
+  379:         font-family: var(--bs-font-sans-serif) !important;
+  380          color: white;
+
+  385          & a, span {
+  386:             color: var(--bs-white);
+  387          }
+
+  389          &.el-tag--info {
+  390:             background: var(--bs-gray-600);
+  391          }
+
+kestra-ee/ui-ee/src/components/cluster/Service.vue:
+  142          .el-timeline-item__timestamp {
+  143:             color: var(--bs-heading-color) !important;
+  144              font-weight: 600 !important;
+
+kestra-ee/ui-ee/src/components/cluster/Services.vue:
+  253  .text-description {
+  254:     color: var(--bs-gray-700);
+  255  }
+
+kestra-ee/ui-ee/src/components/cluster/ServiceTriggers.vue:
+  456  .trigger-issue-icon {
+  457:     color: var(--bs-warning);
+  458      font-size: 1.4em;
+
+kestra-ee/ui-ee/src/components/login/AcceptInvitation.vue:
+  158          a, p {
+  159:             color: var(--bs-tertiary-color);
+  160          }
+
+  171              display: block;
+  172:             color: var(--bs-tertiary-color);
+  173          }
+
+kestra-ee/ui-ee/src/components/login/Login.vue:
+  214          .el-button.el-button--default {
+  215:             background: var(--bs-gray-200);
+  216              height: 54px;
+
+  248              overflow: hidden;
+  249:             color: var(--bs-gray-900);
+  250              margin-top: 20px;
+
+  266                  top: 10px;
+  267:                 border-top: 1px solid var(--bs-border-color);
+  268  
+
+kestra-ee/ui-ee/src/components/roles/RoleCard.vue:
+  39      .el-tag {
+  40:         border-color: var(--bs-gray-700);
+  41:         background: var(--bs-border-color);
+  42:         color: var(--bs-gray-900);
+  43      }
+
+kestra-ee/ui-ee/src/components/users/UserDetails.vue:
+  338      .form-container {
+  339:         background-color: var(--bs-body-background);
+  340          padding: 1rem;
+
+  343          width: 40%;
+  344:         border: 1px solid var(--bs-card-bg);
+  345          display: flex;
+
+kestra-ee/ui-ee/src/components/users/UserInviteModal.vue:
+  241          padding: 8px 12px 8px 16px;
+  242:         color: var(--bs-secondary);
+  243          font-size: 16px;
+
+kestra-ee/ui-ee/src/override/components/namespaces/NamespaceDependencies.vue:
+  7              v-else
+  8:             :default-marker-color="cssVariable('--bs-cyan')"
+  9              :fit-view-on-init="true"
+
+kestra-ee/ui-ee/src/override/components/namespaces/Namespaces.vue:
+  145      min-width: $width;
+  146:     color: var(--bs-heading-color);
+  147      font-size: var(--font-size-sm);
+
+  150          padding: 0 1rem;
+  151:         border-radius: var(--bs-border-radius-lg);
+  152  
+  153          &.is-focus {
+  154:             box-shadow: 0 0 0 1px var(--bs-border-color) inset;
+  155          }
+
+  159  .namespaces {
+  160:     border-radius: var(--bs-border-radius-lg);
+  161:     border: 1px solid var(--bs-border-color);
+  162  
+
+  179      .rounded-full {
+  180:         border-radius: var(--bs-border-radius-lg);
+  181      }
+
+  188          &:hover {
+  189:             background: var(--bs-body-bg);
+  190              color: $active;
+
+ui-libs/src/components/buttons/AddTaskButton.vue:
+  28          height: 25px;
+  29:         border: 0.4px solid var(--bs-border-color);
+  30:         background-color: var(--bs-white);
+  31          html.dark & {
+
+ui-libs/src/components/content/Alert.vue:
+  20      .doc-alert {
+  21:         --bs-alert-padding-x: var(--spacer);
+  22:         --bs-alert-padding-y: var(--spacer);
+  23:         --bs-alert-margin-bottom: var(--spacer);
+  24  
+
+  26          border: 1px solid #3a3c55;
+  27:         padding: var(--bs-alert-padding-y) var(--bs-alert-padding-x);
+  28:         margin-bottom: var(--bs-alert-margin-bottom);
+  29  
+
+ui-libs/src/components/content/Collapse.vue:
+  49          font-size: 1.30em;
+  50:         color: var(--bs-white);
+  51          display: inline-block;
+
+ui-libs/src/components/content/NextLink.vue:
+  22          .material-design-icon {
+  23:             color: var(--bs-purple);
+  24          }
+
+  27              :deep(a), :deep(a:hover) {
+  28:                 color: var(--bs-white) !important;
+  29              }
+
+ui-libs/src/components/content/ProseCode.vue:
+  14          border: 1px solid $black-3;
+  15:         border-radius: var(--bs-border-radius);
+  16          padding: 0 0.25rem;
+
+ui-libs/src/components/content/ProsePre.vue:
+  106          padding: 1.25rem 1.5rem;
+  107:         border-radius: var(--bs-border-radius-lg);
+  108:         color: var(--bs-white);
+  109          position: relative;
+
+  114              top: 0.25rem;
+  115:             color: var(--bs-gray-600);
+  116              font-size: calc($font-size-base * .75);
+
+ui-libs/src/components/content/ProseTable.vue:
+  27              background-color: transparent;
+  28:             border-bottom: 4px solid var(--bs-border-color) !important;
+  29              border-top: none;
+  30:             color: var(--bs-body-color);
+  31          }
+
+  39                  font-weight: 400;
+  40:                 color: var(--bs-body-color);
+  41              }
+
+ui-libs/src/components/misc/ExecutionInformations.vue:
+  101      .content {
+  102:         color: var(--bs-gray-700);
+  103      }
+
+ui-libs/src/components/misc/TaskIcon.vue:
+  76                  const darkTheme = document.getElementsByTagName("html")[0].className.indexOf("dark") >= 0;
+  77:                 let color = darkTheme ? cssVariable("--bs-gray-900") : cssVariable("--bs-black");
+  78  
+  79                  if (this.theme) {
+  80:                     color = this.theme === "dark" ? cssVariable("--bs-gray-900") : cssVariable("--bs-black");
+  81                  }
+
+ui-libs/src/components/nodes/BasicNode.vue:
+  215      .node-wrapper {
+  216:         background-color: var(--bs-white);
+  217  
+  218          html.dark & {
+  219:             background-color: var(--bs-gray-300);
+  220          }
+
+  231          &.execution-no-taskrun, &.disabled {
+  232:             background-color: var(--bs-gray-200);
+  233  
+  234              html.dark & {
+  235:                 background-color: var(--bs-gray-500);
+  236              }
+
+  240              .task-title {
+  241:                 color: var(--bs-gray-500);
+  242                  text-decoration: line-through;
+
+  244                  html.dark & {
+  245:                     color: var(--bs-gray-600);
+  246                  }
+
+  253              height: 25px;
+  254:             border: 0.4px solid var(--bs-border-color);
+  255          }
+
+  269      .description-button {
+  270:         color: var(--bs-gray-700);
+  271          cursor: pointer;
+
+  295          font-weight: 700;
+  296:         color: var(--bs-black);
+  297          flex-grow: 1;
+
+  299          html.dark & {
+  300:             color: var(--bs-white);
+  301          }
+
+ui-libs/src/components/nodes/ClusterNode.vue:
+  101      .text-color {
+  102:         color: var(--bs-white);
+  103          font-size: 0.5rem;
+
+ui-libs/src/components/nodes/DependenciesNode.vue:
+  103      .dependency-node-wrapper {
+  104:         background-color: var(--bs-white);
+  105:         color: var(--bs-black);
+  106  
+
+  108              background-color: var(--card-bg);
+  109:             color: var(--bs-white);
+  110          }
+
+ui-libs/src/components/plugins/SchemaToCode.vue:
+  118          padding: 1.25rem 1.5rem;
+  119:         border-radius: var(--bs-border-radius-lg);
+  120:         color: var(--bs-white);
+  121          position: relative;
+
+  126              top: 0.25rem;
+  127:             color: var(--bs-gray-600);
+  128              font-size: 0.75rem;
+
+ui-libs/src/components/plugins/SchemaToHtml.vue:
+  386                  border: 1px solid #252526;
+  387:                 border-radius: var(--bs-border-radius);
+  388                  color: #b9b9ba;
+
+ui-libs/src/components/topology/Topology.vue:
+  153                  if (n?.type === "task") {
+  154:                     n.style = {...n.style, outline: "0.5px solid " + cssVariable("--bs-gray-900")}
+  155                      n.class = "rounded-3"
+
+  232                  if (n.type === "task") {
+  233:                     n.style = {...n.style, outline: "0.5px solid " + cssVariable("--bs-primary")}
+  234                      n.class = "rounded-3"
+
+  236              })
+  237:             e.node.style = {...e.node.style, outline: "0.5px solid " + cssVariable("--bs-primary")}
+  238              e.node.class = "rounded-3"
+
+  309          :id="id"
+  310:         :default-marker-color="cssVariable('--bs-cyan')"
+  311          fit-view-on-init
+
+  316      >
+  317:         <Background :pattern-color="darkTheme ? cssVariable('--bs-grey-500') : cssVariable('--bs-grey-300')" />
+  318  
+
+ui-libs/src/scss/app.scss:
+  18  .vue-flow__controls {
+  19:     border: 1px solid var(--bs-border-color);
+  20:     border-radius: var(--bs-border-radius);
+  21  }
+
+  23  .vue-flow__controls-button {
+  24:     color: var(--bs-black);
+  25:     border-bottom-color: var(--bs-border-color);
+  26  
+  27      svg {
+  28:         fill: var(--bs-black);
+  29      }
+
+  31      html.dark & {
+  32:         background: var(--bs-card-bg);
+  33:         color: var(--bs-white);
+  34  
+  35          svg {
+  36:             fill: var(--bs-white);
+  37          }
+
+ui-libs/src/scss/bootstrap-overload.scss:
+  47      line-height: 20px;
+  48:     --bs-tooltip-bg: var(--bs-gray-900);
+  49:     --bs-tooltip-color: var(--bs-gray-100);
+  50:     --bs-tooltip-opacity: 1;
+  51  
+  52      html.dark & {
+  53:         --bs-tooltip-color: var(--bs-gray-900);
+  54:         --bs-tooltip-bg: var(--bs-gray-100);
+  55      }
+
+ui-libs/src/utils/state.js:
+  158      static color() {
+  159:         return mapValues(STATE, () => "cssVariable(\"--bs-\" + state.colorClass)");
+  160      }

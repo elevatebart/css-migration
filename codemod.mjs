@@ -68,8 +68,9 @@ const CSS_VARS_TRANSFORMS_MAP = [
   {
     selector: "--bs-border-color",
     props: {
-      "border-color": "--ks-border-primary",
       border: "--ks-border-primary",
+      "border-color": "--ks-border-primary",
+      "border-bottom": "--ks-border-primary",
     },
   },
 
@@ -89,6 +90,7 @@ const CSS_VARS_TRANSFORMS_MAP = [
       "border-color": "--ks-border-primary",
       "border-right": "--ks-border-primary",
       "border-left": "--ks-border-primary",
+      "border-bottom": "--ks-border-primary",
     },
   },
   {

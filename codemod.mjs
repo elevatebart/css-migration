@@ -92,6 +92,15 @@ const CSS_VARS_TRANSFORMS_MAP = [
     },
   },
   {
+    selector: "--el-border",
+    props: {
+        border: "--ks-border-primary",
+        "border-color": "--ks-border-primary",
+        "border-right": "--ks-border-primary",
+        "border-left": "--ks-border-primary",
+    },
+  },
+  {
     selector: "--el-color-text-primary",
     props: {
       color: "--ks-content-link",
@@ -138,6 +147,13 @@ const CSS_VARS_TRANSFORMS_MAP = [
       background: "--ks-background-card",
     },
   },
+  {
+    selector: "--input-bg",
+    props: {
+        "background-color": "--ks-background-input",
+        background: "--ks-background-input"
+    }
+  }
 ];
 
 const CSS_IN_JS_VARS_TRANSFORMS_MAP = [

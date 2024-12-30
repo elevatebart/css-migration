@@ -155,6 +155,26 @@ const CSS_VARS_TRANSFORMS_MAP = [
         "background-color": "--ks-background-input",
         background: "--ks-background-input"
     }
+  },
+  {
+    selector: "--log-content-error",
+    props: {
+        "color": "--ks-log-content-error"
+    }
+  },
+  {
+    selector: "--log-background-error",
+    props: {
+        "background-color": "--ks-log-background-error",
+        "border-top": "--ks-log-background-error",
+    }
+  },
+  {
+    selector: "--log-border-error",
+    props: {
+        "border": "--ks-log-border-error",
+        "border-color": "--ks-log-border-error",
+    }
   }
 ];
 

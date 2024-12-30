@@ -4,6 +4,7 @@ import { builders as b } from "ast-types";
 const cwd = process.cwd()
 
 const CSS_VARS_TRANSFORMS_MAP = [
+  // bootstrap
   {
     selector: "--bs-white",
     props: {
@@ -63,7 +64,15 @@ const CSS_VARS_TRANSFORMS_MAP = [
     selector: "--bs-secondary",
     props: {
       color: "--ks-content-secondary",
+      // editor's file explorer, slider's, hover state...
+      "background-color": "--ks-border-active"
     },
+  },
+  {
+    selector: "--bs-tertiary-color",
+    props: {
+        color: "--ks-content-tertiary",
+    }
   },
   {
     selector: "--bs-border-color",
@@ -72,6 +81,12 @@ const CSS_VARS_TRANSFORMS_MAP = [
       "border-color": "--ks-border-primary",
       "border-bottom": "--ks-border-primary",
     },
+  },
+  {
+    selector: "--bs-warning",
+    props: {
+        color: "--ks-content-warning",
+    }
   },
 
   // element plus

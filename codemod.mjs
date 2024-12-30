@@ -35,18 +35,6 @@ const CSS_VARS_TRANSFORMS_MAP = [
     },
   },
   {
-    selector: "--el-text-primary",
-    props: {
-      color: "--ks-content-primary",
-    },
-  },
-  {
-    selector: "--el-text-color-regular",
-    props: {
-      color: "--ks-content-primary",
-    },
-  },
-  {
     selector: "--bs-body-bg",
     props: {
       "background-color": "--ks-background-body",
@@ -83,6 +71,14 @@ const CSS_VARS_TRANSFORMS_MAP = [
     },
   },
   {
+    selector: "--bs-border-secondary-color",
+    props: {
+        border:"--ks-border-secondary",
+        "border-color": "--ks-border-secondary",
+        "border-bottom": "--ks-border-secondary",
+    }
+  },
+  {
     selector: "--bs-warning",
     props: {
         color: "--ks-content-warning",
@@ -91,10 +87,30 @@ const CSS_VARS_TRANSFORMS_MAP = [
 
   // element plus
   {
+    selector: "--el-bg-color",
+    props: {
+      "background-color": "--ks-background-button-secondary-hover",
+      background: "--ks-background-button-secondary-hover"
+    }
+  },
+  {
+    selector: "--el-text-primary",
+    props: {
+      color: "--ks-content-primary",
+    },
+  },
+  {
+    selector: "--el-text-color-regular",
+    props: {
+      color: "--ks-content-primary",
+    },
+  },
+  {
     selector: "--el-color-primary",
     props: {
       "border-color": "--ks-border-active",
       border: "--ks-border-active",
+      "box-shadow": "--ks-border-active",
       color: "--ks-content-link",
     },
   },
@@ -146,8 +162,15 @@ const CSS_VARS_TRANSFORMS_MAP = [
     selector: "--el-button-bg-color",
     props: {
       background: "--ks-background-button-secondary",
+      "background-color": "--ks-background-button-secondary",
       border: "--ks-background-button-secondary",
     },
+  },
+  {
+    selector: "--el-text-color-disabled",
+    props: {
+        color: "--ks-content-inactive",
+    }
   },
 
   // previous ks colors

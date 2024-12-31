@@ -156,6 +156,7 @@ const CSS_VARS_TRANSFORMS_MAP = [
     selector: "--el-text-color-primary",
     props: {
       color: "--ks-content-link",
+      background: "--ks-background-body"
     },
   },
   {
@@ -183,6 +184,12 @@ const CSS_VARS_TRANSFORMS_MAP = [
     selector: "--el-text-color-disabled",
     props: {
         color: "--ks-content-inactive",
+    }
+  },
+  {
+    selector: "--el-color-warning",
+    props: {
+        color: "--ks-content-warning",
     }
   },
 

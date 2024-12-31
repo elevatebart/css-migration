@@ -252,7 +252,7 @@ const CSS_IN_JS_VARS_TRANSFORMS_MAP = [
   },
   {
     selector: /var\(--log-content-/,
-    replacement: "var(--ks-content-",
+    replacement: "var(--ks-log-content-",
   },
 ];
 

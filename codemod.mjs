@@ -135,6 +135,7 @@ const CSS_VARS_TRANSFORMS_MAP = [
       "border-right": "--ks-border-primary",
       "border-left": "--ks-border-primary",
       "border-bottom": "--ks-border-primary",
+      "box-shadow": "--ks-border-primary",
     },
   },
   {

@@ -35,6 +35,12 @@ const CSS_VARS_TRANSFORMS_MAP = [
     },
   },
   {
+    selector: "--bs-code-color",
+    props: {
+      color: "--ks-content-code"
+    }
+  },
+  {
     selector: "--bs-body-bg",
     props: {
       "background-color": "--ks-background-body",
@@ -68,7 +74,14 @@ const CSS_VARS_TRANSFORMS_MAP = [
       border: "--ks-border-primary",
       "border-color": "--ks-border-primary",
       "border-bottom": "--ks-border-primary",
+      "border-right": "--ks-border-primary",
     },
+  },
+  {
+    selector: "--bs-card-color",
+    props: {
+        color: "--ks-content-primary"
+    }
   },
   {
     selector: "--bs-border-secondary-color",

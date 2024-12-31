@@ -37,7 +37,7 @@ const CSS_VARS_TRANSFORMS_MAP = [
   {
     selector: "--bs-code-color",
     props: {
-      color: "--ks-content-code"
+      color: "--ks-content-id"
     }
   },
   {

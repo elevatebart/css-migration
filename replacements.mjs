@@ -236,12 +236,30 @@ export const CSS_VARS_TRANSFORMS_MAP = [
             background: "--ks-background-error",
             "background-color": "--ks-background-error",
         }
-    }
-    ,
+    },
     {
         selector: "--content-color-failed",
         props: {
             color: "--ks-content-error",
+        }
+    },
+    {
+        selector: "--background-information",
+        props: {
+            background: "--ks-background-info",
+            "background-color": "--ks-background-info",
+        }
+    },
+    {
+        selector: "--content-information",
+        props: {
+            color: "--ks-content-info",
+        }
+    },
+    {
+        selector: "--border-information",
+        props: {
+            border: "--ks-border-info",
         }
     }
 

@@ -229,6 +229,68 @@ export const CSS_VARS_TRANSFORMS_MAP = [
           "border": "--ks-log-border-error",
           "border-color": "--ks-log-border-error",
       }
+    },
+    {
+        selector: "--background-color-failed",
+        props: {
+            background: "--ks-background-error",
+            "background-color": "--ks-background-error",
+        }
+    }
+    ,
+    {
+        selector: "--content-color-failed",
+        props: {
+            color: "--ks-content-error",
+        }
+    }
+
+    // post fixes
+    ,
+    {
+        selector: "--ks-content-information",
+        props: {
+            color: "--ks-content-info"
+        }
+    }
+    ,
+    {
+        selector: "--ks-border-information",
+        props: {
+            border: "--ks-border-info",
+            "border-color": "--ks-border-info"
+        }
+    }
+    ,
+    {
+        selector: "--ks-background-information",
+        props: {
+            background: "--ks-background-info",
+            "background-color": "--ks-background-info"
+        }
+    }
+    ,
+    {
+        selector: "--ks-content-failed",
+        props: {
+            color: "--ks-content-error"
+        }
+    }
+    ,
+    {
+        selector: "--ks-border-failed",
+        props: {
+            border: "--ks-border-error",
+            "border-color": "--ks-border-error"
+        }
+    }
+    ,
+    {
+        selector: "--ks-background-failed",
+        props: {
+            background: "--ks-background-error",
+            "background-color": "--ks-background-error"
+        }
     }
   ];
   

@@ -266,6 +266,28 @@ export const CSS_VARS_TRANSFORMS_MAP = [
     // post fixes
     ,
     {
+        selector: "--content-content-secondary",
+        props: {
+            color: "--ks-content-secondary"
+        }
+    }
+    ,
+    {
+        selector: "--content-content-inactive",
+        props: {
+            color: "--ks-content-inactive"
+        }
+    }
+    ,
+    {
+        selector: "--tooltip-content-information",
+        props: {
+            color: "--ks-content-info"
+        }
+    }
+    
+    ,
+    {
         selector: "--ks-content-information",
         props: {
             color: "--ks-content-info"
